@@ -1,0 +1,65 @@
+@mixin btn($bg-color: #e2e2e2) {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: $base-padding $base-padding * 2;
+    border-radius: $base-border-radius;
+    background-color: $bg-color;
+}
+
+.btn {
+    @include btn;
+}
+
+@each $k,
+$v in $base-colors {
+    .btn-#{$k} {
+        @include btn($v);
+
+        &:hover {
+            background-color: lighten($v, 5);
+        }
+    }
+
+    @if($v !=black and $v !=white) {
+        @for $i from 1 through 6 {
+            .btn-l-#{$k}-#{$i} {
+                @include btn(mix(white, $v, $i * 10%));
+
+                &:hover {
+                    background-color: lighten($v, 25%);
+                }
+            }
+        }
+
+        @for $i from 1 through 6 {
+            .btn-d-#{$k}-#{$i} {
+                @include btn(mix(black, $v, $i * 10%));
+
+                &:hover {
+                    background-color: darken($v, 25%);
+                }
+            }
+        }
+    }
+
+    .btn-otl-#{$k} {
+        @include btn(#fff);
+        border: $base-border-thickness solid $v;
+
+        &:hover {
+            background-color: $v;
+        }
+    }
+
+    .btn-cmp-#{$k} {
+        @include btn($v);
+        color: light-comp($v);
+
+        &:hover {
+            color: $v;
+            background-color: light-comp($v);
+        }
+    }
+}

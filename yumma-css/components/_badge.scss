@@ -1,0 +1,34 @@
+@use 'sass:math';
+
+@mixin badge($bg-color: map-get($base-colors, "blue")) {
+    border-radius: $base-border-radius * 4;
+    background-color: $bg-color;
+    padding: math.div($base-padding, 4) math.div($base-padding, 2);
+    font-size: $font-size-sm;
+    font-weight: normal;
+}
+
+.badge {
+    @include badge;
+}
+
+@each $k,
+$v in $base-colors {
+    .badge-#{$k} {
+        @include badge($v);
+    }
+
+    @if($v !=black and $v !=white) {
+        @for $i from 1 through 6 {
+            .badge-l-#{$k}-#{$i} {
+                @include badge(mix(white, $v, $i * 10%));
+            }
+        }
+
+        @for $i from 1 through 6 {
+            .badge-d-#{$k}-#{$i} {
+                @include badge(mix(black, $v, $i * 10%));
+            }
+        }
+    }
+}

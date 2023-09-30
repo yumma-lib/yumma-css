@@ -1,0 +1,29 @@
+%flex-layout {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.nav {
+    @extend %flex-layout;
+    padding: $base-padding $base-padding * 2;
+    box-shadow: $base-box-shadow;
+
+    .nav-l {
+        font-size: $font-size-lg;
+    }
+
+    .cnn {
+        @extend %flex-layout;
+    }
+}
+
+@each $k,
+$v in $base-colors {
+    .nav-#{$k} {
+        @extend .nav;
+        background-color: $v;
+    }
+}

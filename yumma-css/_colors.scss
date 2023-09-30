@@ -1,0 +1,282 @@
+@each $k,
+$v in $base-colors {
+    .bg-#{$k} {
+        background-color: $v;
+    }
+
+    .bg-h-#{$k} {
+        &:hover {
+            background-color: $v;
+        }
+    }
+
+    .bc-#{$k} {
+        border-color: $v;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .bc-h-#{$k} {
+        &:hover {
+            border-color: $v;
+            border-style: solid;
+            border-width: 1px;
+        }
+    }
+
+    .bc-b-#{$k} {
+        border-bottom-color: $v;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .bc-b-h-#{$k} {
+        &:hover {
+            border-bottom-color: $v;
+            border-style: solid;
+            border-width: 1px;
+        }
+    }
+
+    .bc-l-#{$k} {
+        border-left-color: $v;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .bc-l-h-#{$k} {
+        &:hover {
+            border-left-color: $v;
+            border-style: solid;
+            border-width: 1px;
+        }
+    }
+
+    .bc-r-#{$k} {
+        border-right-color: $v;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .bc-r-h-#{$k} {
+        &:hover {
+            border-right-color: $v;
+            border-style: solid;
+            border-width: 1px;
+        }
+    }
+
+    .bc-t-#{$k} {
+        border-top-color: $v;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .bc-t-h-#{$k} {
+        &:hover {
+            border-top-color: $v;
+            border-style: solid;
+            border-width: 1px;
+        }
+    }
+
+    .t-#{$k} {
+        color: $v;
+    }
+
+    .t-h-#{$k} {
+        &:hover {
+            color: $v;
+        }
+    }
+
+    @if($v !=black and $v !=white) {
+
+        // light variations
+        @for $i from 1 through 6 {
+            .bg-l-#{$k}-#{$i} {
+                background-color: mix(white, $v, $i * 10%);
+            }
+
+            .bg-h-l-#{$k}-#{$i} {
+                &:hover {
+                    background-color: mix(white, $v, $i * 10%);
+                }
+            }
+
+            .bc-l-#{$k}-#{$i} {
+                border-color: mix(white, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-h-l-#{$k}-#{$i} {
+                &:hover {
+                    border-color: mix(white, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .bc-b-l-#{$k}-#{$i} {
+                border-bottom-color: mix(white, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-b-h-l-#{$k}-#{$i} {
+                &:hover {
+                    border-bottom-color: mix(white, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .bc-l-l-#{$k}-#{$i} {
+                border-left-color: mix(white, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-l-h-l-#{$k}-#{$i} {
+                &:hover {
+                    border-left-color: mix(white, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .bc-r-l-#{$k}-#{$i} {
+                border-right-color: mix(white, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-r-h-l-#{$k}-#{$i} {
+                &:hover {
+                    border-right-color: mix(white, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .bc-t-l-#{$k}-#{$i} {
+                border-top-color: mix(white, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-t-h-l-#{$k}-#{$i} {
+                &:hover {
+                    border-top-color: mix(white, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .t-l-#{$k}-#{$i} {
+                color: mix(white, $v, $i * 10%);
+            }
+
+            .t-h-l-#{$k}-#{$i} {
+                &:hover {
+                    color: mix(white, $v, $i * 10%);
+                }
+            }
+        }
+
+        // dark variations
+        @for $i from 1 through 6 {
+            .bg-d-#{$k}-#{$i} {
+                background-color: mix(black, $v, $i * 10%);
+            }
+
+            .bg-h-d-#{$k}-#{$i} {
+                &:hover {
+                    background-color: mix(black, $v, $i * 10%);
+                }
+            }
+
+            .bc-d-#{$k}-#{$i} {
+                border-color: mix(black, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-h-d-#{$k}-#{$i} {
+                &:hover {
+                    border-color: mix(black, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .bc-b-d-#{$k}-#{$i} {
+                border-bottom-color: mix(black, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-b-h-d-#{$k}-#{$i} {
+                &:hover {
+                    border-bottom-color: mix(black, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .bc-l-d-#{$k}-#{$i} {
+                border-left-color: mix(black, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-l-h-d-#{$k}-#{$i} {
+                &:hover {
+                    border-left-color: mix(black, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .bc-r-d-#{$k}-#{$i} {
+                border-right-color: mix(black, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-r-h-d-#{$k}-#{$i} {
+                &:hover {
+                    border-right-color: mix(black, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .bc-t-d-#{$k}-#{$i} {
+                border-top-color: mix(black, $v, $i * 10%);
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .bc-t-h-d-#{$k}-#{$i} {
+                &:hover {
+                    border-top-color: mix(black, $v, $i * 10%);
+                    border-style: solid;
+                    border-width: 1px;
+                }
+            }
+
+            .t-d-#{$k}-#{$i} {
+                color: mix(black, $v, $i * 10%);
+            }
+
+            .t-h-d-#{$k}-#{$i} {
+                &:hover {
+                    color: mix(black, $v, $i * 10%);
+                }
+            }
+
+        }
+    }
+}

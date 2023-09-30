@@ -1,0 +1,51 @@
+// color pallete
+$base-colors: (
+    "red": #f26d50,
+    "orange": #f68e55,
+    "yellow": #fff467,
+    "green": #3bb878,
+    "teal": #1abbb4,
+    "aqua": #00bff3,
+    "blue": #438cca,
+    "violet": #855fa8,
+    "magenta": #a863a8,
+    "pink": #f06ea9,
+    "gray": #999999,
+    "black": black,
+    "white": white,
+);
+
+// arragement
+$base-columns: 1;
+
+// directions
+$base-direction: 1px;
+
+// borders
+$base-border-thickness: 1px;
+$base-border: 1px;
+$base-border-radius: 8px;
+
+// effect
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+// typography
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-md: $base-font-size * 1.75;
+$font-size-lg: $base-font-size * 2;
+$font-size-xlg: $base-font-size * 3;
+
+// grid
+$base-column-gap: 0.25rem;
+$base-row-gap: 0.25rem;
+$base-template-columns: 0.25rem;
+$base-template-rows: 0.25rem;
+
+// size
+$base-height: 0.25rem;
+$base-width: 0.25rem;
+
+// space
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;

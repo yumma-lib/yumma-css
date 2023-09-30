@@ -1,0 +1,34 @@
+{
+  "name": "yummacss",
+  "version": "0.0.1",
+  "description": "An essential CSS library for streamlined UI development.",
+  "main": "index.js",
+  "style": "dist/yumma.css",
+  "author": {
+    "name": "Renildo Pereira",
+    "url": "https://yummacss.gitbook.io/yumma-css/getting-started/overview"
+  },
+  "keywords": [
+    "customization",
+    "css",
+    "design",
+    "UI"
+  ],
+  "license": "MIT",
+  "homepage": "https://yummacss.gitbook.io/yumma-css",
+  "bugs": {
+    "url": "https://github.com/rrenildopereiraa/yumma-css/issues"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
+    "gulp-purgecss": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.1"
+  }
+}
