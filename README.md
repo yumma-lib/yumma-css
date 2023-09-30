@@ -10,7 +10,7 @@ Welcome to Yumma CSS Library! A lightweight and powerful CSS library designed to
 * Customizable: Tailor the library to suit your project's specific needs. Customize variables, styles, and colors to create a unique look and feel.
 
 ## Installation
-You can include Yumma CSS in your project by either using our content delivery network link (cdn) or using a package manager.
+You can include Yumma CSS in your project either by using our Content Delivery Network (CDN) link or by using a package manager.
 
 ### Integrate via CDN
 ```html
