@@ -23,10 +23,16 @@ npm install yummacss
 ```
 
 ## Documentation
-For comprehensive documentation UI component examples, visit the [Yumma CSS Docs](https://yummacss.netlify.app/).
+For comprehensive documentation, visit the [Yumma CSS Docs](https://yummacss.netlify.app/).
 
 ## License
 Yumma CSS is open-source software licensed under the MIT License.
 
 ## Support
-If you have any questions, follow us on Twitter [@yummacss](https://twitter.com/yummacss) for updates and announcements!
+
+If you have questions or want to stay updated on our projects, here are some ways to connect with us:
+
+- Join our [Discord](https://discord.gg/CGw5vyqmQ6) server.
+- Follow us on [Twitter](https://twitter.com/yummacss) for the latest updates.
+
+If you'd like to show your support for our work, [you can buy me a coffee](https://www.buymeacoffee.com/rrenildoo).
