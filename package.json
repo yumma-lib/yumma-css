@@ -1,6 +1,6 @@
 {
   "name": "yummacss",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A CSS library for streamlined UI development.",
   "main": "index.js",
   "style": "dist/yumma.css",
@@ -9,9 +9,8 @@
   },
   "keywords": [
     "customization",
-    "css",
-    "design",
-    "UI"
+    "ux design",
+    "css"
   ],
   "license": "MIT",
   "homepage": "https://yummacss.netlify.app/",
@@ -19,11 +18,13 @@
     "url": "https://github.com/yumma-lib/yumma-css/issues"
   },
   "scripts": {
-    "build": "gulp build",
-    "watch": "gulp watch"
+    "build": "gulp buildStyles",
+    "minify": "gulp minifyStyles",
+    "watch": "gulp watchTask"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
     "gulp-copy": "^4.0.1",
     "gulp-purgecss": "^5.0.0",
     "gulp-rename": "^2.0.0",

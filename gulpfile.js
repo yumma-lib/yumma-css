@@ -1,7 +1,7 @@
 const { src, dest, watch, series } = require('gulp');
-const rename = require('gulp-rename');
 const sass = require('gulp-sass')(require('sass'));
-const copy = require('gulp-copy');
+const cleanCSS = require('gulp-clean-css');
+const rename = require('gulp-rename');
 
 function buildStyles() {
     return src('yumma-css/**/*.scss')
@@ -10,17 +10,19 @@ function buildStyles() {
         .pipe(dest('dist'));
 }
 
-function copyStyles() {
+function minifyStyles() {
     return src('dist/yumma.css')
-        .pipe(copy('./public/css', { prefix: 1 }));
+        .pipe(cleanCSS())
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(dest('public/css'));
 }
 
 function watchTask() {
-    watch(['yumma-css/**/*.scss', '*.html'], series(buildStyles, copyStyles));
+    watch(['yumma-css/**/*.scss', '*.html'], series(buildStyles, minifyStyles));
 }
 
 exports.buildStyles = buildStyles;
-exports.copyStyles = copyStyles;
+exports.minifyStyles = minifyStyles;
 exports.watch = watchTask;
 
-exports.default = series(buildStyles, copyStyles, watchTask);
+exports.default = series(buildStyles, minifyStyles, watchTask);
