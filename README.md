@@ -31,6 +31,13 @@ const greet = () => {
 module.exports = { greet };
 ```
 
+### How to use
+To display the Yumma CSS version in your console, just call the `greet` function in your project code:
+
+```js
+const { greet } = require('./index');
+```
+
 ## Documentation
 For comprehensive documentation, visit the [Yumma CSS Docs](https://yummacss.netlify.app/).
 
