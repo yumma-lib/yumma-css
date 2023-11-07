@@ -30,3 +30,17 @@ All notable changes to the Yumma CSS Library will be documented in this file.
 
 ### Deprecated
 - None
+
+## v0.1.1
+
+### Added
+- None
+
+### Changed
+- Updated readme file
+
+### Fixed
+- None
+
+### Deprecated
+- None
