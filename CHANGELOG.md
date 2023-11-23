@@ -44,3 +44,17 @@ All notable changes to the Yumma CSS Library will be documented in this file.
 
 ### Deprecated
 - None
+
+## v0.2.0
+
+### Added
+- Added the `!default` flag to variables and maps in the _variables.scss file
+
+### Changed
+- None
+
+### Fixed
+- None
+
+### Deprecated
+- None

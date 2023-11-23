@@ -1,12 +1,10 @@
 {
   "name": "yummacss",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A CSS library for streamlined UI development.",
   "main": "index.js",
   "style": "dist/yumma.css",
-  "author": {
-    "name": "Renildo Pereira"
-  },
+  "author": "Renildo Pereira",
   "keywords": [
     "customization",
     "ux design",

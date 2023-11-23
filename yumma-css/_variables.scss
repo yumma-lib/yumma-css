@@ -13,39 +13,39 @@ $base-colors: (
     "gray": #999999,
     "black": black,
     "white": white,
-);
+) !default;
 
 // arragement
-$base-columns: 1;
+$base-columns: 1 !default;
 
 // directions
-$base-direction: 1px;
+$base-direction: 1px !default;
 
 // borders
-$base-border-thickness: 1px;
-$base-border: 1px;
-$base-border-radius: 8px;
+$base-border-thickness: 1px !default;
+$base-border: 1px !default;
+$base-border-radius: 8px !default;
 
 // effect
-$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
 
 // typography
-$base-font-size: 1rem;
-$font-size-sm: $base-font-size * 0.75;
-$font-size-md: $base-font-size * 1.75;
-$font-size-lg: $base-font-size * 2;
-$font-size-xlg: $base-font-size * 3;
+$base-font-size: 1rem !default;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-md: $base-font-size * 1.75 !default;
+$font-size-lg: $base-font-size * 2 !default;
+$font-size-xlg: $base-font-size * 3 !default;
 
 // grid
-$base-column-gap: 0.25rem;
-$base-row-gap: 0.25rem;
-$base-template-columns: 0.25rem;
-$base-template-rows: 0.25rem;
+$base-column-gap: 0.25rem !default;
+$base-row-gap: 0.25rem !default;
+$base-template-columns: 0.25rem !default;
+$base-template-rows: 0.25rem !default;
 
 // size
-$base-height: 0.25rem;
-$base-width: 0.25rem;
+$base-height: 0.25rem !default;
+$base-width: 0.25rem !default;
 
 // space
-$base-padding: 0.75rem;
-$base-margin: 0.75rem;
+$base-padding: 0.75rem !default;
+$base-margin: 0.75rem !default;
