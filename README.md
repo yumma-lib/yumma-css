@@ -39,7 +39,7 @@ const { greet } = require('./index');
 ```
 
 ## Documentation
-For comprehensive documentation, visit the [Yumma CSS Docs](https://yummacss.netlify.app/).
+For comprehensive documentation, visit the [Yumma CSS Docs](https://yummacss.vercel.app/).
 
 ## License
 Yumma CSS is open-source software licensed under the MIT License.
