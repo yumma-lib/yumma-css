@@ -18,24 +18,24 @@ npm install yummacss
 ```
 
 ## Version Display
-To display the Yumma CSS version in your console, import the following code snippet and call the `greet` function:
+To display the Yumma CSS version in your console, import the following code snippet and call the `showVer` function:
 
 ```js
 const packageJson = require('./package.json');
 
-const greet = () => {
+const showVer = () => {
     const version = packageJson.version;
     console.log(`You're running Yumma CSS v${version}`);
 };
 
-module.exports = { greet };
+module.exports = { showVer };
 ```
 
 ### How to use
-To display the Yumma CSS version in your console, just call the `greet` function in your project code:
+To display the Yumma CSS version in your console, just call the `showVer` function in your project code:
 
 ```js
-const { greet } = require('./index');
+const { showVer } = require('./index');
 ```
 
 ## Documentation

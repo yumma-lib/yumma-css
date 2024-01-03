@@ -1,51 +1,68 @@
-// color pallete
+// default colors
 $base-colors: (
-    "red": #f26d50,
-    "orange": #f68e55,
-    "yellow": #fff467,
-    "green": #3bb878,
-    "teal": #1abbb4,
-    "aqua": #00bff3,
-    "blue": #438cca,
-    "violet": #855fa8,
-    "magenta": #a863a8,
-    "pink": #f06ea9,
-    "gray": #999999,
+    "red": rgb(242, 109, 80),
+    "orange": rgb(246, 142, 85),
+    "yellow": rgb(255, 244, 103),
+    "green": rgb(59, 184, 120),
+    "teal": rgb(26, 187, 180),
+    "aqua": rgb(0, 191, 243),
+    "blue": rgb(67, 140, 202),
+    "violet": rgb(133, 95, 168),
+    "magenta": rgb(168, 99, 168),
+    "pink": rgb(240, 110, 169),
+    "gray": rgb(153, 153, 153),
+    "lead": rgb(63, 63, 78),
     "black": black,
-    "white": white,
+    "white": white
 ) !default;
 
-// arragement
-$base-columns: 1 !default;
-
-// directions
-$base-direction: 1px !default;
-
-// borders
+//borders & background
 $base-border-thickness: 1px !default;
 $base-border: 1px !default;
 $base-border-radius: 8px !default;
-
-// effect
 $base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
 
-// typography
-$base-font-size: 1rem !default;
-$font-size-sm: $base-font-size * 0.75 !default;
-$font-size-md: $base-font-size * 1.75 !default;
-$font-size-lg: $base-font-size * 2 !default;
-$font-size-xlg: $base-font-size * 3 !default;
-
-// grid
-$base-column-gap: 0.25rem !default;
-$base-row-gap: 0.25rem !default;
-$base-template-columns: 0.25rem !default;
-$base-template-rows: 0.25rem !default;
-
-// size
+// box model
 $base-height: 0.25rem !default;
 $base-width: 0.25rem !default;
-
-// space
 $base-padding: 0.75rem !default;
 $base-margin: 0.75rem !default;
+$base-flex-basis: 1rem !default;
+$base-flex-grow: 1 !default;
+$base-flex-shrink: 1 !default;
+
+// flexbox & grid
+$base-column-gap: 0.25rem !default;
+$base-flex: 1 !default;
+$base-template-columns: 0.25rem !default;
+$base-template-rows: 0.25rem !default;
+$base-row-gap: 0.25rem !default;
+
+// positioning
+$base-columns: 1 !default;
+$base-direction: 1px !default;
+
+// typography & text
+$base-font-size: 1rem !default;
+$base-font: normal !default;
+$base-font-size-sm: $base-font-size * 0.75 !default;
+$base-font-size-md: $base-font-size * 1.75 !default;
+$base-font-size-lg: $base-font-size * 2 !default;
+$base-font-size-xlg: $base-font-size * 3 !default;
+
+// custom values
+$custom-values: (
+    "auto": auto,
+    "full": 100%,
+    "half": 50%
+);
+
+$custom-height-values: (
+  "1\\/1": 100dvh,
+  "1\\/2": 50dvh,
+);
+
+$custom-width-values: (
+  "1\\/1": 100dvw,
+  "2\\/1": 50dvw,
+);

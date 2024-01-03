@@ -1,0 +1,18 @@
+.cnn {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.ins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

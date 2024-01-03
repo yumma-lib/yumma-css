@@ -11,19 +11,15 @@
     padding: $base-padding $base-padding * 2;
     box-shadow: $base-box-shadow;
 
-    .nav-l {
-        font-size: $font-size-lg;
-    }
-
     .cnn {
         @extend %flex-layout;
     }
 }
 
-@each $k,
-$v in $base-colors {
+@each $k, $v in $base-colors {
     .nav-#{$k} {
         @extend .nav;
         background-color: $v;
     }
 }
+

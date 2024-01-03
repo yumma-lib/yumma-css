@@ -1,22 +1,23 @@
-@each $k,
-$v in $base-colors {
+@each $k, $v in $base-colors {
+    // backgrounds
     .bg-#{$k} {
         background-color: $v;
     }
 
-    .bg-h-#{$k} {
+    .h\:bg-#{$k} {
         &:hover {
             background-color: $v;
         }
     }
 
+    // border colors
     .bc-#{$k} {
         border-color: $v;
         border-style: solid;
         border-width: 1px;
     }
 
-    .bc-h-#{$k} {
+    .h\:bc-#{$k} {
         &:hover {
             border-color: $v;
             border-style: solid;
@@ -30,7 +31,7 @@ $v in $base-colors {
         border-width: 1px;
     }
 
-    .bc-b-h-#{$k} {
+    .h\:bc-b-#{$k} {
         &:hover {
             border-bottom-color: $v;
             border-style: solid;
@@ -44,7 +45,7 @@ $v in $base-colors {
         border-width: 1px;
     }
 
-    .bc-l-h-#{$k} {
+    .h\:bc-l-#{$k} {
         &:hover {
             border-left-color: $v;
             border-style: solid;
@@ -58,7 +59,7 @@ $v in $base-colors {
         border-width: 1px;
     }
 
-    .bc-r-h-#{$k} {
+    .h\:bc-r-#{$k} {
         &:hover {
             border-right-color: $v;
             border-style: solid;
@@ -72,7 +73,7 @@ $v in $base-colors {
         border-width: 1px;
     }
 
-    .bc-t-h-#{$k} {
+    .h\:bc-t-#{$k} {
         &:hover {
             border-top-color: $v;
             border-style: solid;
@@ -80,25 +81,36 @@ $v in $base-colors {
         }
     }
 
+    // text color
     .t-#{$k} {
         color: $v;
     }
 
-    .t-h-#{$k} {
+    .h\:t-#{$k} {
         &:hover {
             color: $v;
         }
     }
 
-    @if($v !=black and $v !=white) {
+    // caret colors
+    .cc-#{$k} {
+        caret-color: $v;
+    }
 
+    .h\:cc-#{$k} {
+        &:hover {
+            caret-color: $v;
+        }
+    }
+
+    @if ($v !=black and $v !=white) {
         // light variations
         @for $i from 1 through 6 {
             .bg-l-#{$k}-#{$i} {
                 background-color: mix(white, $v, $i * 10%);
             }
 
-            .bg-h-l-#{$k}-#{$i} {
+            .h\:bg-l-#{$k}-#{$i} {
                 &:hover {
                     background-color: mix(white, $v, $i * 10%);
                 }
@@ -110,7 +122,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-h-l-#{$k}-#{$i} {
+            .h\:bc-l-#{$k}-#{$i} {
                 &:hover {
                     border-color: mix(white, $v, $i * 10%);
                     border-style: solid;
@@ -124,7 +136,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-b-h-l-#{$k}-#{$i} {
+            .h\:bc-b-l-#{$k}-#{$i} {
                 &:hover {
                     border-bottom-color: mix(white, $v, $i * 10%);
                     border-style: solid;
@@ -138,7 +150,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-l-h-l-#{$k}-#{$i} {
+            .h\:bc-l-l-#{$k}-#{$i} {
                 &:hover {
                     border-left-color: mix(white, $v, $i * 10%);
                     border-style: solid;
@@ -152,7 +164,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-r-h-l-#{$k}-#{$i} {
+            .h\:bc-r-l-#{$k}-#{$i} {
                 &:hover {
                     border-right-color: mix(white, $v, $i * 10%);
                     border-style: solid;
@@ -166,7 +178,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-t-h-l-#{$k}-#{$i} {
+            .h\:bc-t-l-#{$k}-#{$i} {
                 &:hover {
                     border-top-color: mix(white, $v, $i * 10%);
                     border-style: solid;
@@ -178,9 +190,19 @@ $v in $base-colors {
                 color: mix(white, $v, $i * 10%);
             }
 
-            .t-h-l-#{$k}-#{$i} {
+            .h\:t-l-#{$k}-#{$i} {
                 &:hover {
                     color: mix(white, $v, $i * 10%);
+                }
+            }
+
+            .cc-#{$k}-#{$i} {
+                caret-color: mix(white, $v, $i * 10%);
+            }
+
+            .h\:cc-#{$k}-#{$i} {
+                &:hover {
+                    caret-color: mix(white, $v, $i * 10%);
                 }
             }
         }
@@ -191,7 +213,7 @@ $v in $base-colors {
                 background-color: mix(black, $v, $i * 10%);
             }
 
-            .bg-h-d-#{$k}-#{$i} {
+            .h\:bg-d-#{$k}-#{$i} {
                 &:hover {
                     background-color: mix(black, $v, $i * 10%);
                 }
@@ -203,7 +225,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-h-d-#{$k}-#{$i} {
+            .h\:bc-d-#{$k}-#{$i} {
                 &:hover {
                     border-color: mix(black, $v, $i * 10%);
                     border-style: solid;
@@ -217,7 +239,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-b-h-d-#{$k}-#{$i} {
+            .h\:bc-b-d-#{$k}-#{$i} {
                 &:hover {
                     border-bottom-color: mix(black, $v, $i * 10%);
                     border-style: solid;
@@ -231,7 +253,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-l-h-d-#{$k}-#{$i} {
+            .h\:bc-l-d-#{$k}-#{$i} {
                 &:hover {
                     border-left-color: mix(black, $v, $i * 10%);
                     border-style: solid;
@@ -245,7 +267,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-r-h-d-#{$k}-#{$i} {
+            .h\:bc-r-d-#{$k}-#{$i} {
                 &:hover {
                     border-right-color: mix(black, $v, $i * 10%);
                     border-style: solid;
@@ -259,7 +281,7 @@ $v in $base-colors {
                 border-width: 1px;
             }
 
-            .bc-t-h-d-#{$k}-#{$i} {
+            .h\:bc-t-d-#{$k}-#{$i} {
                 &:hover {
                     border-top-color: mix(black, $v, $i * 10%);
                     border-style: solid;
@@ -271,12 +293,21 @@ $v in $base-colors {
                 color: mix(black, $v, $i * 10%);
             }
 
-            .t-h-d-#{$k}-#{$i} {
+            .h\:t-d-#{$k}-#{$i} {
                 &:hover {
                     color: mix(black, $v, $i * 10%);
                 }
             }
 
+            .cc-#{$k}-#{$i} {
+                caret-color: mix(black, $v, $i * 10%);
+            }
+
+            .h\:cc-#{$k}-#{$i} {
+                &:hover {
+                    caret-color: mix(black, $v, $i * 10%);
+                }
+            }
         }
     }
 }

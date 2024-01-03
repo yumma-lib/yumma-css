@@ -1,6 +1,6 @@
 const { src, dest, watch, series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
-const cleanCSS = require('gulp-clean-css');
+const clean = require('gulp-clean-css');
 const rename = require('gulp-rename');
 
 function buildStyles() {
@@ -12,7 +12,7 @@ function buildStyles() {
 
 function minifyStyles() {
     return src('dist/yumma.css')
-        .pipe(cleanCSS())
+        .pipe(clean())
         .pipe(rename({ suffix: '.min' }))
         .pipe(dest('public/css'));
 }
