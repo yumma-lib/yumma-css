@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/4ZNLWYj/app-icon.jpg"  width="50" height="50">
 
-Welcome to Yumma CSS Library! A lightweight and powerful CSS library designed to enhance the styling capabilities of your web apps. Whether you're a beginner or an experienced developer, Yumma CSS provides you with a wide range of pre-built CSS components, styles, and utilities to supercharge your web development workflow. It was created by **Renildo Pereira** in September 2022.
+Yumma CSS, created by **Renildo Pereira**, is a lightweight and streamlined CSS library that provides a comprehensive set of tools and functionalities to simplify web development.
 
 ## Installation
 You can include Yumma CSS in your project either by using our Content Delivery Network (CDN) link or by using a package manager.
@@ -25,7 +25,7 @@ const packageJson = require('./package.json');
 
 const showVer = () => {
     const version = packageJson.version;
-    console.log(`You're running Yumma CSS v${version}`);
+    console.log(`You're running Yumma CSS v${version}!`);
 };
 
 module.exports = { showVer };

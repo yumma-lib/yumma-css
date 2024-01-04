@@ -103,3 +103,17 @@ All notable changes to the Yumma CSS Library will be documented in this file.
 - Removed `break-all` and `keep-all` properties from **Overflow Wrap** classes.
 - Removed duplicate classes for **Justify Content** classes.
 - Removed class `nav-l` from navbar.scss.
+
+## v1.0.1
+
+### Added
+- None
+
+### Changed
+- Changing Height and Width viewports from dynamic to standard.
+
+### Fixed
+- Updated minify version.
+
+### Deprecated
+- None
