@@ -2,7 +2,11 @@
 * {
     color: inherit;
     margin: 0;
-    font-weight: 500;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    font-family: inherit;
 }
 
 a {
@@ -20,9 +24,12 @@ html {
     scroll-behavior: smooth;
 }
 
-img {
+img,
+picture,
+svg,
+video {
     max-width: 100%;
-    height: auto;
+    display: block;
 }
 
 ul {

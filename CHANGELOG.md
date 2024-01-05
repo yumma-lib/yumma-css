@@ -117,3 +117,18 @@ All notable changes to the Yumma CSS Library will be documented in this file.
 
 ### Deprecated
 - None
+
+## v1.0.2
+
+### Added
+- None
+
+### Changed
+- Small CSS resetting improvements.
+
+### Fixed
+- Fixed viewport classes from not working.
+- Fixed caret color light and dark variations.
+
+### Deprecated
+- None

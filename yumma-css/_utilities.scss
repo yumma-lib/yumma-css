@@ -1017,33 +1017,9 @@ $utilities: (
     .min-h-#{$key} {
         min-height: $value;
     }
-
-    .w-#{$key} {
-        width: $value;
-    }
-
-    .max-w-#{$key} {
-        max-width: $value;
-    }
-
-    .min-w-#{$key} {
-        min-width: $value;
-    }
 }
 
 @each $key, $value in $custom-width-values {
-    .h-#{$key} {
-        height: $value;
-    }
-
-    .max-h-#{$key} {
-        max-height: $value;
-    }
-
-    .min-h-#{$key} {
-        min-height: $value;
-    }
-
     .w-#{$key} {
         width: $value;
     }

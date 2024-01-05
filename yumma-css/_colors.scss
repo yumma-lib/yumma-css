@@ -196,7 +196,7 @@
                 }
             }
 
-            .cc-#{$k}-#{$i} {
+            .cc-l-#{$k}-#{$i} {
                 caret-color: mix(white, $v, $i * 10%);
             }
 
@@ -303,7 +303,7 @@
                 caret-color: mix(black, $v, $i * 10%);
             }
 
-            .h\:cc-#{$k}-#{$i} {
+            .h\:cc-d-#{$k}-#{$i} {
                 &:hover {
                     caret-color: mix(black, $v, $i * 10%);
                 }
