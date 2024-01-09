@@ -43,7 +43,7 @@ You can use [npm](https://www.npmjs.com/yummacss/yummacss) to include the Yumma 
 ```
 
 ### npm
-```
+```bash
 npm install yummacss
 ```
 
