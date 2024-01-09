@@ -139,7 +139,7 @@ All notable changes to the Yumma CSS Library will be documented in this file.
 - None
 
 ### Changed
-- Changed the directory of the minified css files to the `/dist` folder.
+- Minified CSS file moved to the `/dist` folder.
 
 ### Fixed
 - None
