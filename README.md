@@ -39,7 +39,7 @@ You can use [npm](https://www.npmjs.com/yummacss/yummacss) to include the Yumma 
 
 ### cdn
 ```
-href="https://cdn.jsdelivr.net/npm/yummacss/public/css/yumma.min.css rel="stylesheet" crossorigin="anonymous"
+href="https://cdn.jsdelivr.net/npm/yummacss/dist/yumma.min.css rel="stylesheet" crossorigin="anonymous"
 ```
 
 ### npm
