@@ -14,7 +14,7 @@ function minifyStyles() {
     return src('dist/yumma.css')
         .pipe(clean())
         .pipe(rename({ suffix: '.min' }))
-        .pipe(dest('public/css'));
+        .pipe(dest('dist'));
 }
 
 function watchTask() {

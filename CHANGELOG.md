@@ -132,3 +132,17 @@ All notable changes to the Yumma CSS Library will be documented in this file.
 
 ### Deprecated
 - None
+
+## v1.0.3
+
+### Added
+- None
+
+### Changed
+- Changed the directory of the minified css files to the `/dist` folder.
+
+### Fixed
+- None
+
+### Deprecated
+- None

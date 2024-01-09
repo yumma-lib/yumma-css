@@ -1,6 +1,6 @@
 {
   "name": "yummacss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CSS library for streamlined UI development.",
   "main": "index.js",
   "style": "dist/yumma.css",
@@ -18,9 +18,11 @@
   "scripts": {
     "build": "gulp buildStyles",
     "minify": "gulp minifyStyles",
-    "watch": "gulp watchTask"
+    "watch": "gulp watchTask",
+    "prod": "concurrently \"gulp buildStyles\" \"gulp minifyStyles\""
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-copy": "^4.0.1",
