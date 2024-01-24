@@ -1,6 +1,6 @@
 {
   "name": "yummacss",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A CSS library for streamlined UI development.",
   "main": "index.js",
   "style": "dist/yumma.css",

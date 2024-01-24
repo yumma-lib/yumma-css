@@ -1,22 +1,22 @@
 @use "sass:math";
 
 $utilities: (
-
     // borders & background
-    "border-width": (
-        "prefix": "b",
-        "values": (
-            "0": $base-border * 0,
-            "1": $base-border,
-            "2": $base-border * 2,
-            "3": $base-border * 4,
-            "4": $base-border * 6,
-            "5": $base-border * 8,
-            "6": $base-border * 10,
-            "7": $base-border * 12,
-            "8": $base-border * 14
-        )
-    ),
+    "border-width":
+        (
+            "prefix": "b",
+            "values": (
+                "0": $base-border * 0,
+                "1": $base-border,
+                "2": $base-border * 2,
+                "3": $base-border * 4,
+                "4": $base-border * 6,
+                "5": $base-border * 8,
+                "6": $base-border * 10,
+                "7": $base-border * 12,
+                "8": $base-border * 14
+            )
+        ),
 
     "border-bottom-width": (
         "prefix": "bb",
@@ -159,39 +159,41 @@ $utilities: (
         "prefix": "bs",
         "values": (
             "default": 1px 3px 5px rgba(0, 0, 0, 0.1),
-            "xsm": 1px 3px 5px -3px rgba(0, 0, 0, 0.1),
+            "xs": 1px 3px 5px -3px rgba(0, 0, 0, 0.1),
             "sm": 1px 3px 5px -2px rgba(0, 0, 0, 0.1),
             "md": 1px 3px 5px -1px rgba(0, 0, 0, 0.1),
             "lg": 1px 3px 5px 1px rgba(0, 0, 0, 0.1),
-            "xlg": 1px 3px 5px 2px rgba(0, 0, 0, 0.1)
+            "xl": 1px 3px 5px 2px rgba(0, 0, 0, 0.1)
         )
     ),
 
     // box model
-    "box-sizing": (
-        "prefix": "bs",
-        "values": (
-            "bb": border-box,
-            "cb": content-box
-        )
-    ),
+    "box-sizing":
+        (
+            "prefix": "bs",
+            "values": (
+                "bb": border-box,
+                "cb": content-box
+            )
+        ),
 
     // flexbox & grid
-    "align-content": (
-        "prefix": "ac",
-        "values": (
-            "c": center,
-            "start": start,
-            "e": end,
-            "fs": flex-start,
-            "fe": flex-end,
-            "n": normal,
-            "sb": space-between,
-            "sa": space-around,
-            "se": space-evenly,
-            "stretch": stretch
-        )
-    ),
+    "align-content":
+        (
+            "prefix": "ac",
+            "values": (
+                "c": center,
+                "start": start,
+                "e": end,
+                "fs": flex-start,
+                "fe": flex-end,
+                "n": normal,
+                "sb": space-between,
+                "sa": space-around,
+                "se": space-evenly,
+                "stretch": stretch
+            )
+        ),
 
     "align-items": (
         "prefix": "ai",
@@ -454,13 +456,14 @@ $utilities: (
     ),
 
     // miscellaneous
-    "appearance": (
-        "prefix": "a",
-        "values": (
-            "none": none,
-            "auto": auto
-        )
-    ),
+    "appearance":
+        (
+            "prefix": "a",
+            "values": (
+                "none": none,
+                "auto": auto
+            )
+        ),
 
     "cursor": (
         "prefix": "c",
@@ -505,16 +508,17 @@ $utilities: (
     ),
 
     // positioning
-    "overflow": (
-        "prefix": "ovf",
-        "values": (
-            "v": visible,
-            "h": hidden,
-            "c": clip,
-            "s": scroll,
-            "auto": auto
-        )
-    ),
+    "overflow":
+        (
+            "prefix": "ovf",
+            "values": (
+                "v": visible,
+                "h": hidden,
+                "c": clip,
+                "s": scroll,
+                "auto": auto
+            )
+        ),
 
     "overflow-x": (
         "prefix": "ovf-x",
@@ -539,7 +543,7 @@ $utilities: (
     ),
 
     "columns": (
-        "prefix": "col",
+        "prefix": "cols",
         "values": (
             "1": $base-columns,
             "2": $base-columns * 2,
@@ -734,15 +738,17 @@ $utilities: (
     ),
 
     // typography & text
-    "font-size": (
-        "prefix": "fs",
-        "values": (
-            "sm": $base-font-size-sm,
-            "md": $base-font-size,
-            "lg": $base-font-size-lg,
-            "xlg": $base-font-size-xlg
-        )
-    ),
+    "font-size":
+        (
+            "prefix": "fs",
+            "values": (
+                "xs": $base-font-size-xs,
+                "sm": $base-font-size-sm,
+                "md": $base-font-size-md,
+                "lg": $base-font-size-lg,
+                "xl": $base-font-size-xl
+            )
+        ),
 
     "font-weight": (
         "prefix": "fw",
@@ -760,7 +766,7 @@ $utilities: (
     ),
 
     "list-style-type": (
-        "prefix": "tst",
+        "prefix": "lst",
         "values": (
             "d": disc,
             "c": circle,
@@ -822,8 +828,7 @@ $utilities: (
             "n": normal,
             "bw": break-word
         )
-    ),
-  
+    )
 );
 
 @for $i from 0 through 100 {
@@ -851,6 +856,11 @@ $utilities: (
 
     .min-w-#{$suffix} {
         min-width: $i * $base-width;
+    }
+
+    .dim-#{$suffix} {
+        height: $i * $base-height;
+        width: $i * $base-width;
     }
 
     .m-#{$i} {
@@ -935,6 +945,7 @@ $utilities: (
     }
 }
 
+// height & width
 @each $key, $value in $custom-values {
     .h-#{$key} {
         height: $value;
@@ -959,8 +970,14 @@ $utilities: (
     .min-w-#{$key} {
         min-width: $value;
     }
+
+    .dim-#{$key} {
+        height: $value;
+        width: $value;
+    }
 }
 
+// margin & padding
 @each $key, $value in $custom-values {
     @if $key == "auto" {
         .m-#{$key} {
@@ -1005,6 +1022,7 @@ $utilities: (
     }
 }
 
+// viewport height
 @each $key, $value in $custom-height-values {
     .h-#{$key} {
         height: $value;
@@ -1019,6 +1037,7 @@ $utilities: (
     }
 }
 
+// viewport width
 @each $key, $value in $custom-width-values {
     .w-#{$key} {
         width: $value;
@@ -1032,3 +1051,222 @@ $utilities: (
         min-width: $value;
     }
 }
+
+@mixin breakpoint-classes($breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+        .#{$breakpoint}\: {
+            @for $i from 0 through 100 {
+                $suffix: #{$i};
+
+                &h-#{$suffix} {
+                    height: $i * $base-height;
+                }
+
+                &max-h-#{$suffix} {
+                    max-height: $i * $base-height;
+                }
+
+                &min-h-#{$suffix} {
+                    min-height: $i * $base-height;
+                }
+
+                &w-#{$suffix} {
+                    width: $i * $base-width;
+                }
+
+                &max-w-#{$suffix} {
+                    max-width: $i * $base-width;
+                }
+
+                &min-w-#{$suffix} {
+                    min-width: $i * $base-width;
+                }
+
+                &m-#{$i} {
+                    margin: $i * $base-margin;
+                }
+
+                &mb-#{$i} {
+                    margin-bottom: $i * $base-margin;
+                }
+
+                &ml-#{$i} {
+                    margin-left: $i * $base-margin;
+                }
+
+                &mr-#{$i} {
+                    margin-right: $i * $base-margin;
+                }
+
+                &mt-#{$i} {
+                    margin-top: $i * $base-margin;
+                }
+
+                &mx-#{$i} {
+                    margin-left: $i * $base-margin;
+                    margin-right: $i * $base-margin;
+                }
+
+                &my-#{$i} {
+                    margin-top: $i * $base-margin;
+                    margin-bottom: $i * $base-margin;
+                }
+
+                &p-#{$i} {
+                    padding: $i * $base-padding;
+                }
+
+                &pb-#{$i} {
+                    padding-bottom: $i * $base-padding;
+                }
+
+                &pl-#{$i} {
+                    padding-left: $i * $base-padding;
+                }
+
+                &pr-#{$i} {
+                    padding-right: $i * $base-padding;
+                }
+
+                &pt-#{$i} {
+                    padding-top: $i * $base-padding;
+                }
+
+                &px-#{$i} {
+                    padding-left: $i * $base-padding;
+                    padding-right: $i * $base-padding;
+                }
+
+                &py-#{$i} {
+                    padding-top: $i * $base-padding;
+                    padding-bottom: $i * $base-padding;
+                }
+
+                &fb-#{$suffix} {
+                    flex-basis: $i * $base-flex-basis;
+                }
+            }
+
+            @each $property, $map in $utilities {
+                $prefix: map-get($map, "prefix");
+                $values: map-get($map, "values");
+
+                @each $k, $v in $values {
+                    @if ($k == "default") {
+                        &#{$prefix} {
+                            #{$property}: $v;
+                        }
+                    } @else {
+                        &#{$prefix}-#{$k} {
+                            #{$property}: $v;
+                        }
+                    }
+                }
+            }
+
+            @each $key, $value in $custom-values {
+                &h-#{$key} {
+                    height: $value;
+                }
+
+                &max-h-#{$key} {
+                    max-height: $value;
+                }
+
+                &min-h-#{$key} {
+                    min-height: $value;
+                }
+
+                &w-#{$key} {
+                    width: $value;
+                }
+
+                &max-w-#{$key} {
+                    max-width: $value;
+                }
+
+                &min-w-#{$key} {
+                    min-width: $value;
+                }
+            }
+
+            @each $key, $value in $custom-values {
+                @if $key == "auto" {
+                    &m-#{$key} {
+                        margin: $value;
+                    }
+
+                    &mb-#{$key} {
+                        margin-bottom: $value;
+                    }
+
+                    &ml-#{$key} {
+                        margin-left: $value;
+                    }
+
+                    &mr-#{$key} {
+                        margin-right: $value;
+                    }
+
+                    &mt-#{$key} {
+                        margin-top: $value;
+                    }
+
+                    &p-#{$key} {
+                        padding: $value;
+                    }
+
+                    &pb-#{$key} {
+                        padding-bottom: $value;
+                    }
+
+                    &pl-#{$key} {
+                        padding-left: $value;
+                    }
+
+                    &pr-#{$key} {
+                        padding-right: $value;
+                    }
+
+                    &pt-#{$key} {
+                        padding-top: $value;
+                    }
+                }
+            }
+
+            @each $key, $value in $custom-height-values {
+                &h-#{$key} {
+                    height: $value;
+                }
+
+                &max-h-#{$key} {
+                    max-height: $value;
+                }
+
+                &min-h-#{$key} {
+                    min-height: $value;
+                }
+            }
+
+            @each $key, $value in $custom-width-values {
+                &w-#{$key} {
+                    width: $value;
+                }
+
+                &max-w-#{$key} {
+                    max-width: $value;
+                }
+
+                &min-w-#{$key} {
+                    min-width: $value;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint-classes(xs);
+@include breakpoint-classes(sm);
+@include breakpoint-classes(md);
+@include breakpoint-classes(lg);
+@include breakpoint-classes(xl);

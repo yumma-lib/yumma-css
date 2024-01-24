@@ -1,22 +1,22 @@
 // functions & variables
-@import 'functions';
-@import 'variables';
+@import "functions";
+@import "variables";
 
 // base, layouts & breakpoints
-@import 'base';
-@import 'breakpoints';
-@import 'grid';
-@import 'layout';
+@import "base";
+@import "breakpoints";
+@import "grid";
+@import "layout";
 
 // colors
-@import 'colors';
+@import "colors";
 
 // components
-@import 'components/card';
-@import 'components/button';
-@import 'components/navbar';
-@import 'components/badge';
+@import "components/card";
+@import "components/button";
+@import "components/navbar";
+@import "components/badge";
 
 // utilities
-@import 'utilities';
-@import 'fonts';
+@import "utils";
+@import "fonts";

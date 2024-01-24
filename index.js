@@ -1,7 +1,7 @@
-const packageJson = require('./package.json');
+const pkg = require('./package.json');
 
 const showVer = () => {
-    const version = packageJson.version;
+    const version = pkg.version;
     console.log(`You're running Yumma CSS v${version}!`);
 };
 

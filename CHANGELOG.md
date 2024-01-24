@@ -146,3 +146,25 @@ All notable changes to the Yumma CSS Library will be documented in this file.
 
 ### Deprecated
 - None
+
+## v1.1.0
+
+### Added
+- Added responsive classes for utility classes.
+- Added transition property to button component.
+- Added extra small variant for font size classes.
+- Added `.dim-{value}` classes.
+
+### Changed
+- Updated syntax for column responsive classes.
+- Updated box shadow syntax from `bs-xsm` to `bs-xs` and `bs-xlg` to `bs-xl`.
+- Updated box shadow syntax from `fs-xlg` to `bs-xl`.
+- Updated box shadow syntax from `col-{value}` to `cols-{value}`.
+
+### Fixed
+- Fixed list style type syntax from `tst-{value}` to `lst-{value}`.
+- Fixed `fs-md` class not working.
+- Fixed caret color variants.
+
+### Deprecated
+- None

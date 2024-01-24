@@ -1,13 +1,13 @@
 $breakpoints: (
-    "xsm": 0,
+    "xs": 0,
     "sm": 480px,
     "md": 720px,
     "lg": 960px,
-    "xlg": 1200px,
+    "xl": 1200px
 );
 
-@mixin xsm {
-    @media (min-width: map-get($breakpoints, "xsm")) {
+@mixin xs {
+    @media (min-width: map-get($breakpoints, "xs")) {
         @content;
     }
 }
@@ -30,14 +30,14 @@ $breakpoints: (
     }
 }
 
-@mixin xlg {
-    @media (min-width: map-get($breakpoints, "xlg")) {
+@mixin xl {
+    @media (min-width: map-get($breakpoints, "xl")) {
         @content;
     }
 }
 
 @mixin breakpoint($bp: 0) {
-    @media(min-width: $bp) {
+    @media (min-width: $bp) {
         @content;
     }
 }

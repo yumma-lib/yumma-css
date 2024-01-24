@@ -9,12 +9,11 @@ $grid-gaps: (
     "3": 30px,
     "4": 40px,
     "5": 50px,
-    "6": 60px,
+    "6": 60px
 );
 
-@each $k,
-$v in $grid-gaps {
-    .gap-#{$k}>* {
+@each $k, $v in $grid-gaps {
+    .gap-#{$k} > * {
         padding: $v;
     }
 
@@ -25,9 +24,9 @@ $v in $grid-gaps {
 }
 
 // column classes
-@include xsm {
+@include xs {
     @for $i from 1 through $grid-columns {
-        .col-#{$i}-xsm {
+        .xs\:col-#{$i} {
             box-sizing: border-box;
             flex-grow: 0;
             width: math.div($i * 100%, $grid-columns);
@@ -37,7 +36,7 @@ $v in $grid-gaps {
 
 @include sm {
     @for $i from 1 through $grid-columns {
-        .col-#{$i}-sm {
+        .sm\:col-#{$i} {
             box-sizing: border-box;
             flex-grow: 0;
             width: math.div($i * 100%, $grid-columns);
@@ -47,7 +46,7 @@ $v in $grid-gaps {
 
 @include md {
     @for $i from 1 through $grid-columns {
-        .col-#{$i}-md {
+        .md\:col-#{$i} {
             box-sizing: border-box;
             flex-grow: 0;
             width: math.div($i * 100%, $grid-columns);
@@ -57,7 +56,7 @@ $v in $grid-gaps {
 
 @include lg {
     @for $i from 1 through $grid-columns {
-        .col-#{$i}-lg {
+        .lg\:col-#{$i} {
             box-sizing: border-box;
             flex-grow: 0;
             width: math.div($i * 100%, $grid-columns);
@@ -65,9 +64,9 @@ $v in $grid-gaps {
     }
 }
 
-@include xlg {
+@include xl {
     @for $i from 1 through $grid-columns {
-        .col-#{$i}-xlg {
+        .xl\:col-#{$i} {
             box-sizing: border-box;
             flex-grow: 0;
             width: math.div($i * 100%, $grid-columns);

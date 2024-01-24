@@ -22,24 +22,24 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/yummacss/yummacss">
-    <img src="https://img.shields.io/npm/v/yummacss.svg" alt="npm version">
+  <a href="https://www.npmjs.com/package/yummacss?activeTab=versions">
+    <img src="https://img.shields.io/npm/v/yummacss" alt="npm version">
   </a>
-  <a href="https://www.npmjs.com/yummacss/yummacss">
-    <img src="https://img.shields.io/npm/dt/yummacss.svg" alt="Downloads">
+  <a href="https://www.npmjs.com/yummacss">
+    <img src="https://img.shields.io/npm/dt/yummacss" alt="Downloads">
   </a>
-  <a href="https://opensource.org/licenses/MIT">
+  <a href="https://github.com/yumma-lib/yumma-css-docs?tab=MIT-1-ov-file#readme">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
   </a>
 </p>
 
 ## Getting Started
 
-You can use [npm](https://www.npmjs.com/yummacss/yummacss) to include the Yumma CSS in your project, or you can add it using [jsDelivr](https://www.jsdelivr.com/):
+You can use [npm](https://www.npmjs.com/yummacss) to include the Yumma CSS in your project, or you can add it using [jsDelivr](https://www.jsdelivr.com/):
 
 ### cdn
 ```
-<link href="https://cdn.jsdelivr.net/npm/yummacss/dist/yumma.min.css rel="stylesheet" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/yummacss/dist/yumma.min.css" rel="stylesheet" crossorigin="anonymous">
 ```
 
 ### npm

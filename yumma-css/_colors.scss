@@ -1,4 +1,5 @@
 @each $k, $v in $base-colors {
+
     // backgrounds
     .bg-#{$k} {
         background-color: $v;
@@ -103,7 +104,18 @@
         }
     }
 
+    .td-#{$k} {
+        text-decoration-color: $v;
+    }
+
+    .h\:td-#{$k} {
+        &:hover {
+            text-decoration-color: $v;
+        }
+    }
+
     @if ($v !=black and $v !=white) {
+
         // light variations
         @for $i from 1 through 6 {
             .bg-l-#{$k}-#{$i} {
@@ -200,7 +212,7 @@
                 caret-color: mix(white, $v, $i * 10%);
             }
 
-            .h\:cc-#{$k}-#{$i} {
+            .h\:cc-l-#{$k}-#{$i} {
                 &:hover {
                     caret-color: mix(white, $v, $i * 10%);
                 }
@@ -299,7 +311,7 @@
                 }
             }
 
-            .cc-#{$k}-#{$i} {
+            .cc-d-#{$k}-#{$i} {
                 caret-color: mix(black, $v, $i * 10%);
             }
 

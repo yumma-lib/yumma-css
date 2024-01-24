@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 
-.row {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .ins {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
 }

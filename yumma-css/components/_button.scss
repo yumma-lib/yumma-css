@@ -1,11 +1,12 @@
 @mixin btn($bg-color: #e2e2e2) {
     text-decoration: none;
-    cursor: pointer;
     display: inline-block;
     border: 0;
     padding: $base-padding $base-padding * 2;
     border-radius: $base-border-radius;
     background-color: $bg-color;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .btn {
@@ -46,7 +47,7 @@ $v in $base-colors {
 
     .btn-otl-#{$k} {
         @include btn(#fff);
-        border: $base-border-thickness solid $v;
+        border: $base-border solid $v;
 
         &:hover {
             background-color: $v;

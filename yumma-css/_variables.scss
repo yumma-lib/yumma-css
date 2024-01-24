@@ -1,23 +1,22 @@
-// default colors
+// base colors
 $base-colors: (
-    "red": rgb(242, 109, 80),
-    "orange": rgb(246, 142, 85),
-    "yellow": rgb(255, 244, 103),
-    "green": rgb(59, 184, 120),
-    "teal": rgb(26, 187, 180),
-    "aqua": rgb(0, 191, 243),
-    "blue": rgb(67, 140, 202),
-    "violet": rgb(133, 95, 168),
-    "magenta": rgb(168, 99, 168),
-    "pink": rgb(240, 110, 169),
-    "gray": rgb(153, 153, 153),
-    "lead": rgb(63, 63, 78),
-    "black": black,
-    "white": white
+  "red": rgb(242, 109, 80),
+  "orange": rgb(246, 142, 85),
+  "yellow": rgb(255, 244, 103),
+  "green": rgb(59, 184, 120),
+  "teal": rgb(26, 187, 180),
+  "aqua": rgb(0, 191, 243),
+  "blue": rgb(67, 140, 202),
+  "violet": rgb(133, 95, 168),
+  "magenta": rgb(168, 99, 168),
+  "pink": rgb(240, 110, 169),
+  "gray": rgb(153, 153, 153),
+  "lead": rgb(63, 63, 78),
+  "black": black,
+  "white": white
 ) !default;
 
 //borders & background
-$base-border-thickness: 1px !default;
 $base-border: 1px !default;
 $base-border-radius: 8px !default;
 $base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
@@ -44,25 +43,30 @@ $base-direction: 1px !default;
 
 // typography & text
 $base-font-size: 1rem !default;
-$base-font: normal !default;
+$base-font-weight: 500 !default;
+$base-font-size-xs: $base-font-size * 0.6 !default;
 $base-font-size-sm: $base-font-size * 0.75 !default;
 $base-font-size-md: $base-font-size * 1.75 !default;
 $base-font-size-lg: $base-font-size * 2 !default;
-$base-font-size-xlg: $base-font-size * 3 !default;
+$base-font-size-xl: $base-font-size * 3 !default;
+$base-system-fonts: system-ui, sans-serif;
+$base-charter-fonts: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+$base-inter-fonts: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
+$base-monospace-fonts: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 
 // custom values
 $custom-values: (
-    "auto": auto,
-    "full": 100%,
-    "half": 50%
+  "auto": auto,
+  "full": 100%,
+  "half": 50%
 );
 
 $custom-height-values: (
   "1\\/1": 100vh,
-  "1\\/2": 50vh,
+  "1\\/2": 50vh
 );
 
 $custom-width-values: (
   "1\\/1": 100vw,
-  "2\\/1": 50vw,
+  "2\\/1": 50vw
 );
