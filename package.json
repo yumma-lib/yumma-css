@@ -1,28 +1,26 @@
 {
   "name": "yummacss",
   "version": "1.1.0",
-  "description": "A CSS library for streamlined UI development.",
+  "description": "Build beautiful websites with small class names.",
   "main": "index.js",
   "style": "dist/yumma.css",
   "author": "Renildo Pereira",
   "keywords": [
-    "customization",
-    "ux design",
-    "css"
+    "css",
+    "css library",
+    "customization"
   ],
   "license": "MIT",
-  "homepage": "https://yummacss.vercel.app/",
+  "homepage": "https://yummacss.com",
   "bugs": {
     "url": "https://github.com/yumma-lib/yumma-css/issues"
   },
   "scripts": {
-    "build": "gulp buildStyles",
-    "minify": "gulp minifyStyles",
-    "watch": "gulp watchTask",
-    "prod": "concurrently \"gulp buildStyles\" \"gulp minifyStyles\""
+    "std": "gulp standardFile",
+    "min": "gulp minifiedFile",
+    "watch": "gulp watchFiles"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-copy": "^4.0.1",

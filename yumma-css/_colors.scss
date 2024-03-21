@@ -1,5 +1,4 @@
-@each $k, $v in $base-colors {
-
+@each $k, $v in $yma-colors {
     // backgrounds
     .bg-#{$k} {
         background-color: $v;
@@ -115,7 +114,6 @@
     }
 
     @if ($v !=black and $v !=white) {
-
         // light variations
         @for $i from 1 through 6 {
             .bg-l-#{$k}-#{$i} {

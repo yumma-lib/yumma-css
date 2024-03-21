@@ -8,18 +8,16 @@
 
 .nav {
     @extend %flex-layout;
-    padding: $base-padding $base-padding * 2;
-    box-shadow: $base-box-shadow;
+    padding: $yma-padding $yma-padding * 2;
 
     .cnn {
         @extend %flex-layout;
     }
 }
 
-@each $k, $v in $base-colors {
+@each $k, $v in $yma-colors {
     .nav-#{$k} {
         @extend .nav;
         background-color: $v;
     }
 }
-

@@ -1,22 +1,20 @@
 <p align="center">
-  <a href="https://yummacss.vercel.app/">
-    <img src="https://yummacss.vercel.app/img/yumma-css.png" width="64" alt="Yumma CSS Logo">
-  </a>
+  <img src="https://yummacss.com/img/yummacss.png" width="64" alt="Yumma CSS Logo">
 </p>
 
 <h3 align="center">Yumma CSS</h3>
 
 <p align="center">
-  Lightweight and streamlined CSS library that provides a set of tools to simplify web development.
+  Build beautiful websites with small class names
   <br>
-  <a href="https://yummacss.vercel.app/"><strong>Explore Yumma CSS Docs ↝</strong></a>
+  <a href="https://yummacss.com"><strong>Explore Yumma CSS Docs ↝</strong></a>
   <br>
   <br>
-  <a href="https://yummacss-editor.vercel.app/">Try Yumma CSS</a>
+  <a href="https://yummacss.com/playground">Try Yumma CSS</a>
   •
-  <a href="https://github.com/yumma-lib/yumma-css/issues">VS Code Extension</a>
+  <a href="https://yummacss.com/blog/introducing-yummacss-intelephense">Our Extension</a>
   •
-  <a href="https://yummacss.vercel.app/blog">Blog</a>
+  <a href="https://yummacss.com/blog">Blog</a>
   •
   <a href="https://github.com/yumma-lib/yumma-css/issues">Issues</a>
 </p>
@@ -43,7 +41,7 @@ You can use [npm](https://www.npmjs.com/yummacss) to include the Yumma CSS in yo
 ```
 
 ### npm
-```bash
+```
 npm install yummacss
 ```
 
@@ -51,6 +49,7 @@ npm install yummacss
 
 If you have questions or want to stay updated on our projects, here are some ways to connect with us:
 
+- Subscribe to our [YouTube](https://www.youtube.com/@rrenildopereiraa/videos) channel.
 - Join our [Discord](https://discord.gg/CGw5vyqmQ6) server.
 - Follow us on [Twitter](https://twitter.com/yummacss) for the latest updates.
 

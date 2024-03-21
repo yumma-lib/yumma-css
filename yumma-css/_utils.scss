@@ -6,90 +6,90 @@ $utilities: (
         (
             "prefix": "b",
             "values": (
-                "0": $base-border * 0,
-                "1": $base-border,
-                "2": $base-border * 2,
-                "3": $base-border * 4,
-                "4": $base-border * 6,
-                "5": $base-border * 8,
-                "6": $base-border * 10,
-                "7": $base-border * 12,
-                "8": $base-border * 14
+                "0": $yma-border * 0,
+                "1": $yma-border,
+                "2": $yma-border * 2,
+                "3": $yma-border * 4,
+                "4": $yma-border * 6,
+                "5": $yma-border * 8,
+                "6": $yma-border * 10,
+                "7": $yma-border * 12,
+                "8": $yma-border * 14
             )
         ),
 
     "border-bottom-width": (
         "prefix": "bb",
         "values": (
-            "0": $base-border * 0,
-            "1": $base-border,
-            "2": $base-border * 2,
-            "3": $base-border * 4,
-            "4": $base-border * 6,
-            "5": $base-border * 8,
-            "6": $base-border * 10,
-            "7": $base-border * 12,
-            "8": $base-border * 14
+            "0": $yma-border * 0,
+            "1": $yma-border,
+            "2": $yma-border * 2,
+            "3": $yma-border * 4,
+            "4": $yma-border * 6,
+            "5": $yma-border * 8,
+            "6": $yma-border * 10,
+            "7": $yma-border * 12,
+            "8": $yma-border * 14
         )
     ),
 
     "border-left-width": (
         "prefix": "bl",
         "values": (
-            "0": $base-border * 0,
-            "1": $base-border,
-            "2": $base-border * 2,
-            "3": $base-border * 4,
-            "4": $base-border * 6,
-            "5": $base-border * 8,
-            "6": $base-border * 10,
-            "7": $base-border * 12,
-            "8": $base-border * 14
+            "0": $yma-border * 0,
+            "1": $yma-border,
+            "2": $yma-border * 2,
+            "3": $yma-border * 4,
+            "4": $yma-border * 6,
+            "5": $yma-border * 8,
+            "6": $yma-border * 10,
+            "7": $yma-border * 12,
+            "8": $yma-border * 14
         )
     ),
 
     "border-right-width": (
         "prefix": "br",
         "values": (
-            "0": $base-border * 0,
-            "1": $base-border,
-            "2": $base-border * 2,
-            "3": $base-border * 4,
-            "4": $base-border * 6,
-            "5": $base-border * 8,
-            "6": $base-border * 10,
-            "7": $base-border * 12,
-            "8": $base-border * 14
+            "0": $yma-border * 0,
+            "1": $yma-border,
+            "2": $yma-border * 2,
+            "3": $yma-border * 4,
+            "4": $yma-border * 6,
+            "5": $yma-border * 8,
+            "6": $yma-border * 10,
+            "7": $yma-border * 12,
+            "8": $yma-border * 14
         )
     ),
 
     "border-top-width": (
         "prefix": "bt",
         "values": (
-            "0": $base-border * 0,
-            "1": $base-border,
-            "2": $base-border * 2,
-            "3": $base-border * 4,
-            "4": $base-border * 6,
-            "5": $base-border * 8,
-            "6": $base-border * 10,
-            "7": $base-border * 12,
-            "8": $base-border * 14
+            "0": $yma-border * 0,
+            "1": $yma-border,
+            "2": $yma-border * 2,
+            "3": $yma-border * 4,
+            "4": $yma-border * 6,
+            "5": $yma-border * 8,
+            "6": $yma-border * 10,
+            "7": $yma-border * 12,
+            "8": $yma-border * 14
         )
     ),
 
     "border-radius": (
         "prefix": "rad",
         "values": (
-            "0": $base-border-radius * 0,
-            "1": $base-border-radius,
-            "2": $base-border-radius * 2,
-            "3": $base-border-radius * 4,
-            "4": $base-border-radius * 6,
-            "5": $base-border-radius * 8,
-            "6": $base-border-radius * 10,
-            "7": $base-border-radius * 12,
-            "8": $base-border-radius * 14,
+            "0": $yma-border-radius * 0,
+            "1": $yma-border-radius,
+            "2": $yma-border-radius * 2,
+            "3": $yma-border-radius * 4,
+            "4": $yma-border-radius * 6,
+            "5": $yma-border-radius * 8,
+            "6": $yma-border-radius * 10,
+            "7": $yma-border-radius * 12,
+            "8": $yma-border-radius * 14,
             "full": 100%,
             "half": 50%
         )
@@ -98,67 +98,67 @@ $utilities: (
     "border-top-left-radius": (
         "prefix": "rad-tl",
         "values": (
-            "0": $base-border-radius * 0,
-            "1": $base-border-radius,
-            "2": $base-border-radius * 2,
-            "3": $base-border-radius * 4,
-            "4": $base-border-radius * 6,
-            "5": $base-border-radius * 8,
-            "6": $base-border-radius * 10,
-            "7": $base-border-radius * 12,
-            "8": $base-border-radius * 14
+            "0": $yma-border-radius * 0,
+            "1": $yma-border-radius,
+            "2": $yma-border-radius * 2,
+            "3": $yma-border-radius * 4,
+            "4": $yma-border-radius * 6,
+            "5": $yma-border-radius * 8,
+            "6": $yma-border-radius * 10,
+            "7": $yma-border-radius * 12,
+            "8": $yma-border-radius * 14
         )
     ),
 
     "border-top-right-radius": (
         "prefix": "rad-tr",
         "values": (
-            "0": $base-border-radius * 0,
-            "1": $base-border-radius,
-            "2": $base-border-radius * 2,
-            "3": $base-border-radius * 4,
-            "4": $base-border-radius * 6,
-            "5": $base-border-radius * 8,
-            "6": $base-border-radius * 10,
-            "7": $base-border-radius * 12,
-            "8": $base-border-radius * 14
+            "0": $yma-border-radius * 0,
+            "1": $yma-border-radius,
+            "2": $yma-border-radius * 2,
+            "3": $yma-border-radius * 4,
+            "4": $yma-border-radius * 6,
+            "5": $yma-border-radius * 8,
+            "6": $yma-border-radius * 10,
+            "7": $yma-border-radius * 12,
+            "8": $yma-border-radius * 14
         )
     ),
 
     "border-bottom-left-radius": (
         "prefix": "rad-bl",
         "values": (
-            "0": $base-border-radius * 0,
-            "1": $base-border-radius,
-            "2": $base-border-radius * 2,
-            "3": $base-border-radius * 4,
-            "4": $base-border-radius * 6,
-            "5": $base-border-radius * 8,
-            "6": $base-border-radius * 10,
-            "7": $base-border-radius * 12,
-            "8": $base-border-radius * 14
+            "0": $yma-border-radius * 0,
+            "1": $yma-border-radius,
+            "2": $yma-border-radius * 2,
+            "3": $yma-border-radius * 4,
+            "4": $yma-border-radius * 6,
+            "5": $yma-border-radius * 8,
+            "6": $yma-border-radius * 10,
+            "7": $yma-border-radius * 12,
+            "8": $yma-border-radius * 14
         )
     ),
 
     "border-bottom-right-radius": (
         "prefix": "rad-br",
         "values": (
-            "0": $base-border-radius * 0,
-            "1": $base-border-radius,
-            "2": $base-border-radius * 2,
-            "3": $base-border-radius * 4,
-            "4": $base-border-radius * 6,
-            "5": $base-border-radius * 8,
-            "6": $base-border-radius * 10,
-            "7": $base-border-radius * 12,
-            "8": $base-border-radius * 14
+            "0": $yma-border-radius * 0,
+            "1": $yma-border-radius,
+            "2": $yma-border-radius * 2,
+            "3": $yma-border-radius * 4,
+            "4": $yma-border-radius * 6,
+            "5": $yma-border-radius * 8,
+            "6": $yma-border-radius * 10,
+            "7": $yma-border-radius * 12,
+            "8": $yma-border-radius * 14
         )
     ),
 
     "box-shadow": (
         "prefix": "bs",
         "values": (
-            "default": 1px 3px 5px rgba(0, 0, 0, 0.1),
+            "none": none,
             "xs": 1px 3px 5px -3px rgba(0, 0, 0, 0.1),
             "sm": 1px 3px 5px -2px rgba(0, 0, 0, 0.1),
             "md": 1px 3px 5px -1px rgba(0, 0, 0, 0.1),
@@ -225,22 +225,22 @@ $utilities: (
     "column-gap": (
         "prefix": "cg",
         "values": (
-            "1": $base-column-gap,
-            "2": $base-column-gap * 2,
-            "3": $base-column-gap * 3,
-            "4": $base-column-gap * 4,
-            "5": $base-column-gap * 5,
-            "6": $base-column-gap * 6,
-            "7": $base-column-gap * 7,
-            "8": $base-column-gap * 8,
-            "9": $base-column-gap * 9,
-            "10": $base-column-gap * 10,
-            "11": $base-column-gap * 11,
-            "12": $base-column-gap * 12,
-            "13": $base-column-gap * 13,
-            "14": $base-column-gap * 14,
-            "15": $base-column-gap * 15,
-            "16": $base-column-gap * 16
+            "1": $yma-column-gap,
+            "2": $yma-column-gap * 2,
+            "3": $yma-column-gap * 3,
+            "4": $yma-column-gap * 4,
+            "5": $yma-column-gap * 5,
+            "6": $yma-column-gap * 6,
+            "7": $yma-column-gap * 7,
+            "8": $yma-column-gap * 8,
+            "9": $yma-column-gap * 9,
+            "10": $yma-column-gap * 10,
+            "11": $yma-column-gap * 11,
+            "12": $yma-column-gap * 12,
+            "13": $yma-column-gap * 13,
+            "14": $yma-column-gap * 14,
+            "15": $yma-column-gap * 15,
+            "16": $yma-column-gap * 16
         )
     ),
 
@@ -257,28 +257,30 @@ $utilities: (
     "flex-grow": (
         "prefix": "fg",
         "values": (
-            "1": $base-flex-grow,
-            "2": $base-flex-grow * 2,
-            "3": $base-flex-grow * 3,
-            "4": $base-flex-grow * 4,
-            "5": $base-flex-grow * 5,
-            "6": $base-flex-grow * 6,
-            "7": $base-flex-grow * 7,
-            "8": $base-flex-grow * 8
+            "0": $yma-flex-grow * 0,
+            "1": $yma-flex-grow,
+            "2": $yma-flex-grow * 2,
+            "3": $yma-flex-grow * 3,
+            "4": $yma-flex-grow * 4,
+            "5": $yma-flex-grow * 5,
+            "6": $yma-flex-grow * 6,
+            "7": $yma-flex-grow * 7,
+            "8": $yma-flex-grow * 8
         )
     ),
 
     "flex-shrink": (
         "prefix": "fs",
         "values": (
-            "1": $base-flex-shrink,
-            "2": $base-flex-shrink * 2,
-            "3": $base-flex-shrink * 3,
-            "4": $base-flex-shrink * 4,
-            "5": $base-flex-shrink * 5,
-            "6": $base-flex-shrink * 6,
-            "7": $base-flex-shrink * 7,
-            "8": $base-flex-shrink * 8
+            "0": $yma-flex-shrink * 0,
+            "1": $yma-flex-shrink,
+            "2": $yma-flex-shrink * 2,
+            "3": $yma-flex-shrink * 3,
+            "4": $yma-flex-shrink * 4,
+            "5": $yma-flex-shrink * 5,
+            "6": $yma-flex-shrink * 6,
+            "7": $yma-flex-shrink * 7,
+            "8": $yma-flex-shrink * 8
         )
     ),
 
@@ -294,22 +296,24 @@ $utilities: (
     "flex": (
         "prefix": "f",
         "values": (
-            "1": $base-flex,
-            "2": $base-flex * 2,
-            "3": $base-flex * 3,
-            "4": $base-flex * 4,
-            "5": $base-flex * 5,
-            "6": $base-flex * 6,
-            "7": $base-flex * 7,
-            "8": $base-flex * 8,
-            "9": $base-flex * 9,
-            "10": $base-flex * 10,
-            "11": $base-flex * 11,
-            "12": $base-flex * 12,
-            "13": $base-flex * 13,
-            "14": $base-flex * 14,
-            "15": $base-flex * 15,
-            "16": $base-flex * 16
+            "0": $yma-flex * 0,
+            "1": $yma-flex,
+            "2": $yma-flex * 2,
+            "3": $yma-flex * 3,
+            "4": $yma-flex * 4,
+            "5": $yma-flex * 5,
+            "6": $yma-flex * 6,
+            "7": $yma-flex * 7,
+            "8": $yma-flex * 8,
+            "9": $yma-flex * 9,
+            "10": $yma-flex * 10,
+            "11": $yma-flex * 11,
+            "12": $yma-flex * 12,
+            "13": $yma-flex * 13,
+            "14": $yma-flex * 14,
+            "15": $yma-flex * 15,
+            "16": $yma-flex * 16,
+            "none": none
         )
     ),
 
@@ -343,44 +347,44 @@ $utilities: (
     "grid-template-columns": (
         "prefix": "gtc",
         "values": (
-            "1": repeat(1, auto),
-            "2": repeat(2, auto),
-            "3": repeat(3, auto),
-            "4": repeat(4, auto),
-            "5": repeat(5, auto),
-            "6": repeat(6, auto),
-            "7": repeat(7, auto),
-            "8": repeat(8, auto),
-            "9": repeat(9, auto),
-            "10": repeat(10, auto),
-            "11": repeat(11, auto),
-            "12": repeat(12, auto),
-            "13": repeat(13, auto),
-            "14": repeat(14, auto),
-            "15": repeat(15, auto),
-            "16": repeat(16, auto)
+            "1": repeat(1, minmax(0, 1fr)),
+            "2": repeat(2, minmax(0, 1fr)),
+            "3": repeat(3, minmax(0, 1fr)),
+            "4": repeat(4, minmax(0, 1fr)),
+            "5": repeat(5, minmax(0, 1fr)),
+            "6": repeat(6, minmax(0, 1fr)),
+            "7": repeat(7, minmax(0, 1fr)),
+            "8": repeat(8, minmax(0, 1fr)),
+            "9": repeat(9, minmax(0, 1fr)),
+            "10": repeat(10, minmax(0, 1fr)),
+            "11": repeat(11, minmax(0, 1fr)),
+            "12": repeat(12, minmax(0, 1fr)),
+            "13": repeat(13, minmax(0, 1fr)),
+            "14": repeat(14, minmax(0, 1fr)),
+            "15": repeat(15, minmax(0, 1fr)),
+            "16": repeat(16, minmax(0, 1fr))
         )
     ),
 
     "grid-template-rows": (
         "prefix": "gtr",
         "values": (
-            "1": repeat($base-template-rows, auto),
-            "2": repeat(2, auto),
-            "3": repeat(3, auto),
-            "4": repeat(4, auto),
-            "5": repeat(5, auto),
-            "6": repeat(6, auto),
-            "7": repeat(7, auto),
-            "8": repeat(8, auto),
-            "9": repeat(9, auto),
-            "10": repeat(10, auto),
-            "11": repeat(11, auto),
-            "12": repeat(12, auto),
-            "13": repeat(13, auto),
-            "14": repeat(14, auto),
-            "15": repeat(15, auto),
-            "16": repeat(16, auto)
+            "1": repeat(1, minmax(0, 1fr)),
+            "2": repeat(2, minmax(0, 1fr)),
+            "3": repeat(3, minmax(0, 1fr)),
+            "4": repeat(4, minmax(0, 1fr)),
+            "5": repeat(5, minmax(0, 1fr)),
+            "6": repeat(6, minmax(0, 1fr)),
+            "7": repeat(7, minmax(0, 1fr)),
+            "8": repeat(8, minmax(0, 1fr)),
+            "9": repeat(9, minmax(0, 1fr)),
+            "10": repeat(10, minmax(0, 1fr)),
+            "11": repeat(11, minmax(0, 1fr)),
+            "12": repeat(12, minmax(0, 1fr)),
+            "13": repeat(13, minmax(0, 1fr)),
+            "14": repeat(14, minmax(0, 1fr)),
+            "15": repeat(15, minmax(0, 1fr)),
+            "16": repeat(16, minmax(0, 1fr))
         )
     ),
 
@@ -436,22 +440,22 @@ $utilities: (
     "row-gap": (
         "prefix": "rg",
         "values": (
-            "1": $base-row-gap,
-            "2": $base-row-gap * 2,
-            "3": $base-row-gap * 3,
-            "4": $base-row-gap * 4,
-            "5": $base-row-gap * 5,
-            "6": $base-row-gap * 6,
-            "7": $base-row-gap * 7,
-            "8": $base-row-gap * 8,
-            "9": $base-row-gap * 9,
-            "10": $base-row-gap * 10,
-            "11": $base-row-gap * 11,
-            "12": $base-row-gap * 12,
-            "13": $base-row-gap * 13,
-            "14": $base-row-gap * 14,
-            "15": $base-row-gap * 15,
-            "16": $base-row-gap * 16
+            "1": $yma-row-gap,
+            "2": $yma-row-gap * 2,
+            "3": $yma-row-gap * 3,
+            "4": $yma-row-gap * 4,
+            "5": $yma-row-gap * 5,
+            "6": $yma-row-gap * 6,
+            "7": $yma-row-gap * 7,
+            "8": $yma-row-gap * 8,
+            "9": $yma-row-gap * 9,
+            "10": $yma-row-gap * 10,
+            "11": $yma-row-gap * 11,
+            "12": $yma-row-gap * 12,
+            "13": $yma-row-gap * 13,
+            "14": $yma-row-gap * 14,
+            "15": $yma-row-gap * 15,
+            "16": $yma-row-gap * 16
         )
     ),
 
@@ -545,45 +549,45 @@ $utilities: (
     "columns": (
         "prefix": "cols",
         "values": (
-            "1": $base-columns,
-            "2": $base-columns * 2,
-            "3": $base-columns * 3,
-            "4": $base-columns * 4,
-            "5": $base-columns * 5,
-            "6": $base-columns * 6,
-            "7": $base-columns * 7,
-            "8": $base-columns * 8,
-            "9": $base-columns * 9,
-            "10": $base-columns * 10,
-            "11": $base-columns * 11,
-            "12": $base-columns * 12,
-            "13": $base-columns * 13,
-            "14": $base-columns * 14,
-            "15": $base-columns * 15,
-            "16": $base-columns * 16
+            "1": $yma-columns,
+            "2": $yma-columns * 2,
+            "3": $yma-columns * 3,
+            "4": $yma-columns * 4,
+            "5": $yma-columns * 5,
+            "6": $yma-columns * 6,
+            "7": $yma-columns * 7,
+            "8": $yma-columns * 8,
+            "9": $yma-columns * 9,
+            "10": $yma-columns * 10,
+            "11": $yma-columns * 11,
+            "12": $yma-columns * 12,
+            "13": $yma-columns * 13,
+            "14": $yma-columns * 14,
+            "15": $yma-columns * 15,
+            "16": $yma-columns * 16
         )
     ),
 
     "bottom": (
         "prefix": "dir-b",
         "values": (
-            "default": $base-direction * 0,
-            "1": $base-direction,
-            "2": $base-direction * 2,
-            "3": $base-direction * 4,
-            "4": $base-direction * 6,
-            "5": $base-direction * 8,
-            "6": $base-direction * 10,
-            "7": $base-direction * 12,
-            "8": $base-direction * 14,
-            "9": $base-direction * 16,
-            "10": $base-direction * 18,
-            "11": $base-direction * 20,
-            "12": $base-direction * 22,
-            "13": $base-direction * 24,
-            "14": $base-direction * 26,
-            "15": $base-direction * 28,
-            "16": $base-direction * 30,
+            "0": $yma-direction * 0,
+            "1": $yma-direction,
+            "2": $yma-direction * 2,
+            "3": $yma-direction * 4,
+            "4": $yma-direction * 6,
+            "5": $yma-direction * 8,
+            "6": $yma-direction * 10,
+            "7": $yma-direction * 12,
+            "8": $yma-direction * 14,
+            "9": $yma-direction * 16,
+            "10": $yma-direction * 18,
+            "11": $yma-direction * 20,
+            "12": $yma-direction * 22,
+            "13": $yma-direction * 24,
+            "14": $yma-direction * 26,
+            "15": $yma-direction * 28,
+            "16": $yma-direction * 30,
             "none": none
         )
     ),
@@ -591,23 +595,23 @@ $utilities: (
     "inset": (
         "prefix": "dir-i",
         "values": (
-            "default": $base-direction * 0,
-            "1": $base-direction,
-            "2": $base-direction * 2,
-            "3": $base-direction * 4,
-            "4": $base-direction * 6,
-            "5": $base-direction * 8,
-            "6": $base-direction * 10,
-            "7": $base-direction * 12,
-            "8": $base-direction * 14,
-            "9": $base-direction * 16,
-            "10": $base-direction * 18,
-            "11": $base-direction * 20,
-            "12": $base-direction * 22,
-            "13": $base-direction * 24,
-            "14": $base-direction * 26,
-            "15": $base-direction * 28,
-            "16": $base-direction * 30,
+            "0": $yma-direction * 0,
+            "1": $yma-direction,
+            "2": $yma-direction * 2,
+            "3": $yma-direction * 4,
+            "4": $yma-direction * 6,
+            "5": $yma-direction * 8,
+            "6": $yma-direction * 10,
+            "7": $yma-direction * 12,
+            "8": $yma-direction * 14,
+            "9": $yma-direction * 16,
+            "10": $yma-direction * 18,
+            "11": $yma-direction * 20,
+            "12": $yma-direction * 22,
+            "13": $yma-direction * 24,
+            "14": $yma-direction * 26,
+            "15": $yma-direction * 28,
+            "16": $yma-direction * 30,
             "none": none
         )
     ),
@@ -615,23 +619,23 @@ $utilities: (
     "left": (
         "prefix": "dir-l",
         "values": (
-            "default": $base-direction * 0,
-            "1": $base-direction,
-            "2": $base-direction * 2,
-            "3": $base-direction * 4,
-            "4": $base-direction * 6,
-            "5": $base-direction * 8,
-            "6": $base-direction * 10,
-            "7": $base-direction * 12,
-            "8": $base-direction * 14,
-            "9": $base-direction * 16,
-            "10": $base-direction * 18,
-            "11": $base-direction * 20,
-            "12": $base-direction * 22,
-            "13": $base-direction * 24,
-            "14": $base-direction * 26,
-            "15": $base-direction * 28,
-            "16": $base-direction * 30,
+            "0": $yma-direction * 0,
+            "1": $yma-direction,
+            "2": $yma-direction * 2,
+            "3": $yma-direction * 4,
+            "4": $yma-direction * 6,
+            "5": $yma-direction * 8,
+            "6": $yma-direction * 10,
+            "7": $yma-direction * 12,
+            "8": $yma-direction * 14,
+            "9": $yma-direction * 16,
+            "10": $yma-direction * 18,
+            "11": $yma-direction * 20,
+            "12": $yma-direction * 22,
+            "13": $yma-direction * 24,
+            "14": $yma-direction * 26,
+            "15": $yma-direction * 28,
+            "16": $yma-direction * 30,
             "none": none
         )
     ),
@@ -639,23 +643,23 @@ $utilities: (
     "right": (
         "prefix": "dir-r",
         "values": (
-            "default": $base-direction * 0,
-            "1": $base-direction,
-            "2": $base-direction * 2,
-            "3": $base-direction * 4,
-            "4": $base-direction * 6,
-            "5": $base-direction * 8,
-            "6": $base-direction * 10,
-            "7": $base-direction * 12,
-            "8": $base-direction * 14,
-            "9": $base-direction * 16,
-            "10": $base-direction * 18,
-            "11": $base-direction * 20,
-            "12": $base-direction * 22,
-            "13": $base-direction * 24,
-            "14": $base-direction * 26,
-            "15": $base-direction * 28,
-            "16": $base-direction * 30,
+            "0": $yma-direction * 0,
+            "1": $yma-direction,
+            "2": $yma-direction * 2,
+            "3": $yma-direction * 4,
+            "4": $yma-direction * 6,
+            "5": $yma-direction * 8,
+            "6": $yma-direction * 10,
+            "7": $yma-direction * 12,
+            "8": $yma-direction * 14,
+            "9": $yma-direction * 16,
+            "10": $yma-direction * 18,
+            "11": $yma-direction * 20,
+            "12": $yma-direction * 22,
+            "13": $yma-direction * 24,
+            "14": $yma-direction * 26,
+            "15": $yma-direction * 28,
+            "16": $yma-direction * 30,
             "none": none
         )
     ),
@@ -663,23 +667,23 @@ $utilities: (
     "top": (
         "prefix": "dir-t",
         "values": (
-            "default": $base-direction * 0,
-            "1": $base-direction,
-            "2": $base-direction * 2,
-            "3": $base-direction * 4,
-            "4": $base-direction * 6,
-            "5": $base-direction * 8,
-            "6": $base-direction * 10,
-            "7": $base-direction * 12,
-            "8": $base-direction * 14,
-            "9": $base-direction * 16,
-            "10": $base-direction * 18,
-            "11": $base-direction * 20,
-            "12": $base-direction * 22,
-            "13": $base-direction * 24,
-            "14": $base-direction * 26,
-            "15": $base-direction * 28,
-            "16": $base-direction * 30,
+            "0": $yma-direction * 0,
+            "1": $yma-direction,
+            "2": $yma-direction * 2,
+            "3": $yma-direction * 4,
+            "4": $yma-direction * 6,
+            "5": $yma-direction * 8,
+            "6": $yma-direction * 10,
+            "7": $yma-direction * 12,
+            "8": $yma-direction * 14,
+            "9": $yma-direction * 16,
+            "10": $yma-direction * 18,
+            "11": $yma-direction * 20,
+            "12": $yma-direction * 22,
+            "13": $yma-direction * 24,
+            "14": $yma-direction * 26,
+            "15": $yma-direction * 28,
+            "16": $yma-direction * 30,
             "none": none
         )
     ),
@@ -742,11 +746,14 @@ $utilities: (
         (
             "prefix": "fs",
             "values": (
-                "xs": $base-font-size-xs,
-                "sm": $base-font-size-sm,
-                "md": $base-font-size-md,
-                "lg": $base-font-size-lg,
-                "xl": $base-font-size-xl
+                "xs": $yma-font-size-xs,
+                "sm": $yma-font-size-sm,
+                "md": $yma-font-size-md,
+                "lg": $yma-font-size-lg,
+                "xl": $yma-font-size-xl,
+                "2xl": $yma-font-size-2xl,
+                "3xl": $yma-font-size-3xl,
+                "6xl": $yma-font-size-6xl
             )
         ),
 
@@ -762,6 +769,18 @@ $utilities: (
             "700": 700,
             "800": 800,
             "900": 900
+        )
+    ),
+
+    "line-height": (
+        "prefix": "lh",
+        "values": (
+            "1": 1,
+            "2": 1.25,
+            "3": 1.375,
+            "4": 1.5,
+            "5": 1.625,
+            "6": 2
         )
     ),
 
@@ -835,96 +854,106 @@ $utilities: (
     $suffix: #{$i};
 
     .h-#{$suffix} {
-        height: $i * $base-height;
+        height: $i * $yma-height;
     }
 
     .max-h-#{$suffix} {
-        max-height: $i * $base-height;
+        max-height: $i * $yma-height;
     }
 
     .min-h-#{$suffix} {
-        min-height: $i * $base-height;
+        min-height: $i * $yma-height;
     }
 
     .w-#{$suffix} {
-        width: $i * $base-width;
+        width: $i * $yma-width;
     }
 
     .max-w-#{$suffix} {
-        max-width: $i * $base-width;
+        max-width: $i * $yma-width;
     }
 
     .min-w-#{$suffix} {
-        min-width: $i * $base-width;
+        min-width: $i * $yma-width;
     }
 
     .dim-#{$suffix} {
-        height: $i * $base-height;
-        width: $i * $base-width;
+        height: $i * $yma-height;
+        width: $i * $yma-width;
+    }
+
+    .max-dim-#{$suffix} {
+        max-height: $i * $yma-height;
+        max-width: $i * $yma-width;
+    }
+
+    .min-dim-#{$suffix} {
+        min-height: $i * $yma-height;
+        min-width: $i * $yma-width;
     }
 
     .m-#{$i} {
-        margin: $i * $base-margin;
+        margin: $i * $yma-margin;
     }
 
     .mb-#{$i} {
-        margin-bottom: $i * $base-margin;
+        margin-bottom: $i * $yma-margin;
     }
 
     .ml-#{$i} {
-        margin-left: $i * $base-margin;
+        margin-left: $i * $yma-margin;
     }
 
     .mr-#{$i} {
-        margin-right: $i * $base-margin;
+        margin-right: $i * $yma-margin;
     }
 
     .mt-#{$i} {
-        margin-top: $i * $base-margin;
+        margin-top: $i * $yma-margin;
     }
 
     .mx-#{$i} {
-        margin-left: $i * $base-margin;
-        margin-right: $i * $base-margin;
+        margin-left: $i * $yma-margin;
+        margin-right: $i * $yma-margin;
     }
 
     .my-#{$i} {
-        margin-top: $i * $base-margin;
-        margin-bottom: $i * $base-margin;
+        margin-top: $i * $yma-margin;
+        margin-bottom: $i * $yma-margin;
     }
 
     .p-#{$i} {
-        padding: $i * $base-padding;
+        padding: $i * $yma-padding;
     }
 
     .pb-#{$i} {
-        padding-bottom: $i * $base-padding;
+        padding-bottom: $i * $yma-padding;
     }
 
     .pl-#{$i} {
-        padding-left: $i * $base-padding;
+        padding-left: $i * $yma-padding;
     }
 
     .pr-#{$i} {
-        padding-right: $i * $base-padding;
+        padding-right: $i * $yma-padding;
     }
 
     .pt-#{$i} {
-        padding-top: $i * $base-padding;
+        padding-top: $i * $yma-padding;
     }
 
     .px-#{$i} {
-        padding-left: $i * $base-padding;
-        padding-right: $i * $base-padding;
+        padding-left: $i * $yma-padding;
+        padding-right: $i * $yma-padding;
     }
 
     .py-#{$i} {
-        padding-top: $i * $base-padding;
-        padding-bottom: $i * $base-padding;
+        padding-top: $i * $yma-padding;
+        padding-bottom: $i * $yma-padding;
     }
 
     .fb-#{$suffix} {
-        flex-basis: $i * $base-flex-basis;
+        flex-basis: $i * $yma-flex-basis;
     }
 }
 
@@ -946,7 +975,7 @@ $utilities: (
 }
 
 // height & width
-@each $key, $value in $custom-values {
+@each $key, $value in $additional-classes {
     .h-#{$key} {
         height: $value;
     }
@@ -975,10 +1004,24 @@ $utilities: (
         height: $value;
         width: $value;
     }
+
+    .max-dim-#{$key} {
+        max-height: $value;
+        max-width: $value;
+    }
+
+    .min-dim-#{$key} {
+        min-height: $value;
+        min-width: $value;
+    }
+
+    .fb-#{$key} {
+        flex-basis: $value;
+    }
 }
 
 // margin & padding
-@each $key, $value in $custom-values {
+@each $key, $value in $additional-classes {
     @if $key == "auto" {
         .m-#{$key} {
             margin: $value;
@@ -1023,7 +1066,7 @@ $utilities: (
 }
 
 // viewport height
-@each $key, $value in $custom-height-values {
+@each $key, $value in $dynamic-height-values {
     .h-#{$key} {
         height: $value;
     }
@@ -1038,7 +1081,7 @@ $utilities: (
 }
 
 // viewport width
-@each $key, $value in $custom-width-values {
+@each $key, $value in $dynamic-width-values {
     .w-#{$key} {
         width: $value;
     }
@@ -1059,91 +1102,102 @@ $utilities: (
                 $suffix: #{$i};
 
                 &h-#{$suffix} {
-                    height: $i * $base-height;
+                    height: $i * $yma-height;
                 }
 
                 &max-h-#{$suffix} {
-                    max-height: $i * $base-height;
+                    max-height: $i * $yma-height;
                 }
 
                 &min-h-#{$suffix} {
-                    min-height: $i * $base-height;
+                    min-height: $i * $yma-height;
                 }
 
                 &w-#{$suffix} {
-                    width: $i * $base-width;
+                    width: $i * $yma-width;
                 }
 
                 &max-w-#{$suffix} {
-                    max-width: $i * $base-width;
+                    max-width: $i * $yma-width;
                 }
 
                 &min-w-#{$suffix} {
-                    min-width: $i * $base-width;
+                    min-width: $i * $yma-width;
+                }
+
+                &dim-#{$suffix} {
+                    height: $yma-height;
+                    width: $yma-width;
+                }
+
+                &max-dim-#{$suffix} {
+                    max-height: $yma-height;
+                    max-width: $yma-width;
+                }
+
+                &min-dim-#{$suffix} {
+                    min-height: $yma-height;
+                    min-width: $yma-width;
                 }
 
                 &m-#{$i} {
-                    margin: $i * $base-margin;
+                    margin: $i * $yma-margin;
                 }
 
                 &mb-#{$i} {
-                    margin-bottom: $i * $base-margin;
+                    margin-bottom: $i * $yma-margin;
                 }
 
                 &ml-#{$i} {
-                    margin-left: $i * $base-margin;
+                    margin-left: $i * $yma-margin;
                 }
 
                 &mr-#{$i} {
-                    margin-right: $i * $base-margin;
+                    margin-right: $i * $yma-margin;
                 }
 
                 &mt-#{$i} {
-                    margin-top: $i * $base-margin;
+                    margin-top: $i * $yma-margin;
                 }
 
                 &mx-#{$i} {
-                    margin-left: $i * $base-margin;
-                    margin-right: $i * $base-margin;
+                    margin-left: $i * $yma-margin;
+                    margin-right: $i * $yma-margin;
                 }
 
                 &my-#{$i} {
-                    margin-top: $i * $base-margin;
-                    margin-bottom: $i * $base-margin;
+                    margin-top: $i * $yma-margin;
+                    margin-bottom: $i * $yma-margin;
                 }
 
                 &p-#{$i} {
-                    padding: $i * $base-padding;
+                    padding: $i * $yma-padding;
                 }
 
                 &pb-#{$i} {
-                    padding-bottom: $i * $base-padding;
+                    padding-bottom: $i * $yma-padding;
                 }
 
                 &pl-#{$i} {
-                    padding-left: $i * $base-padding;
+                    padding-left: $i * $yma-padding;
                 }
 
                 &pr-#{$i} {
-                    padding-right: $i * $base-padding;
+                    padding-right: $i * $yma-padding;
                 }
 
                 &pt-#{$i} {
-                    padding-top: $i * $base-padding;
+                    padding-top: $i * $yma-padding;
                 }
 
                 &px-#{$i} {
-                    padding-left: $i * $base-padding;
-                    padding-right: $i * $base-padding;
+                    padding-left: $i * $yma-padding;
+                    padding-right: $i * $yma-padding;
                 }
 
                 &py-#{$i} {
-                    padding-top: $i * $base-padding;
-                    padding-bottom: $i * $base-padding;
-                }
-
-                &fb-#{$suffix} {
-                    flex-basis: $i * $base-flex-basis;
+                    padding-top: $i * $yma-padding;
+                    padding-bottom: $i * $yma-padding;
                 }
             }
 
@@ -1164,7 +1218,7 @@ $utilities: (
                 }
             }
 
-            @each $key, $value in $custom-values {
+            @each $key, $value in $additional-classes {
                 &h-#{$key} {
                     height: $value;
                 }
@@ -1188,9 +1242,13 @@ $utilities: (
                 &min-w-#{$key} {
                     min-width: $value;
                 }
+
+                &fb-#{$key} {
+                    flex-basis: $value;
+                }
             }
 
-            @each $key, $value in $custom-values {
+            @each $key, $value in $additional-classes {
                 @if $key == "auto" {
                     &m-#{$key} {
                         margin: $value;
@@ -1234,7 +1292,7 @@ $utilities: (
                 }
             }
 
-            @each $key, $value in $custom-height-values {
+            @each $key, $value in $dynamic-height-values {
                 &h-#{$key} {
                     height: $value;
                 }
@@ -1248,7 +1306,7 @@ $utilities: (
                 }
             }
 
-            @each $key, $value in $custom-width-values {
+            @each $key, $value in $dynamic-width-values {
                 &w-#{$key} {
                     width: $value;
                 }

@@ -3,26 +3,26 @@ const sass = require('gulp-sass')(require('sass'));
 const clean = require('gulp-clean-css');
 const rename = require('gulp-rename');
 
-function buildStyles() {
+function standardFile() {
     return src('yumma-css/**/*.scss')
         .pipe(sass())
         .pipe(rename('yumma.css'))
         .pipe(dest('dist'));
 }
 
-function minifyStyles() {
+function minifiedFile() {
     return src('dist/yumma.css')
         .pipe(clean())
         .pipe(rename({ suffix: '.min' }))
         .pipe(dest('dist'));
 }
 
-function watchTask() {
-    watch(['yumma-css/**/*.scss', '*.html'], series(buildStyles, minifyStyles));
+function watchFiles() {
+    watch(['yumma-css/**/*.scss', '*.html'], series(standardFile, minifiedFile));
 }
 
-exports.buildStyles = buildStyles;
-exports.minifyStyles = minifyStyles;
-exports.watch = watchTask;
+exports.standardFile = standardFile;
+exports.minifiedFile = minifiedFile;
+exports.watch = watchFiles;
 
-exports.default = series(buildStyles, minifyStyles, watchTask);
+exports.default = series(standardFile, minifiedFile, watchFiles);

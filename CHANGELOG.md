@@ -168,3 +168,40 @@ All notable changes to the Yumma CSS Library will be documented in this file.
 
 ### Deprecated
 - None
+
+## v1.2.0
+
+### Added
+- Added `fit-content` to **Height** and **Width** classes.
+- Added **Max Dimension** and **Min Dimension** classes.
+- Added `auto`, `full`, and `half` value to the **Flex** classes.
+- Added Indigo color to the color palette.
+- Added `transparent` to the color palette.
+- Added `none` property to **Box Shadow** class.
+- Added `.max-dim-{}` and `.min-dim-{}` classes.
+- Added responsive media queries to `.dim-{}`,`.max-dim-{}` and `.min-dim-{}` classes.
+- Added **Line Height** classes.
+- The `.btn{}` component is now smaller by default.
+- Improvements to the `_base.scss` partial file.
+- Improvements in the **Direction** classes.
+- Improvements to **Grid Template Columns** classes.
+- Improvements to **Grid Template Rows** classes.
+- Improvements to the **Flex Shrin**k clasess.
+- Improvements to the **Font Sizes** classes.
+- Improvements to the **Flex** classes.
+- Color palette redesign.
+
+### Changed
+- Viewports units are not dynamic.
+- Removed default shadow in the `.nav{}` component.
+- **Border Radius** default value is now 4px instead of 8px.
+- Removed `.bs{}` class from **Box Shadow**.
+
+### Fixed
+- None
+
+### Deprecated
+- Removed complement button component.
+- Removed the `!default` flag from all variables.
+- Magenta color is deprecated.
+- The `showVer()` function is no longer available.

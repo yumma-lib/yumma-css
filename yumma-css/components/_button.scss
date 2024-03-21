@@ -2,8 +2,8 @@
     text-decoration: none;
     display: inline-block;
     border: 0;
-    padding: $base-padding $base-padding * 2;
-    border-radius: $base-border-radius;
+    padding: 0.625rem 0.875rem;
+    border-radius: $yma-border-radius * 2;
     background-color: $bg-color;
     transition: background-color 0.3s ease;
     cursor: pointer;
@@ -13,8 +13,7 @@
     @include btn;
 }
 
-@each $k,
-$v in $base-colors {
+@each $k, $v in $yma-colors {
     .btn-#{$k} {
         @include btn($v);
 
@@ -23,7 +22,7 @@ $v in $base-colors {
         }
     }
 
-    @if($v !=black and $v !=white) {
+    @if ($v !=black and $v !=white) {
         @for $i from 1 through 6 {
             .btn-l-#{$k}-#{$i} {
                 @include btn(mix(white, $v, $i * 10%));
@@ -47,20 +46,10 @@ $v in $base-colors {
 
     .btn-otl-#{$k} {
         @include btn(#fff);
-        border: $base-border solid $v;
+        border: $yma-border solid $v;
 
         &:hover {
             background-color: $v;
-        }
-    }
-
-    .btn-cmp-#{$k} {
-        @include btn($v);
-        color: light-comp($v);
-
-        &:hover {
-            color: $v;
-            background-color: light-comp($v);
         }
     }
 }

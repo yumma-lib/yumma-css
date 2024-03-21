@@ -1,72 +1,94 @@
-// base colors
-$base-colors: (
-  "red": rgb(242, 109, 80),
-  "orange": rgb(246, 142, 85),
-  "yellow": rgb(255, 244, 103),
-  "green": rgb(59, 184, 120),
-  "teal": rgb(26, 187, 180),
-  "aqua": rgb(0, 191, 243),
-  "blue": rgb(67, 140, 202),
-  "violet": rgb(133, 95, 168),
-  "magenta": rgb(168, 99, 168),
-  "pink": rgb(240, 110, 169),
-  "gray": rgb(153, 153, 153),
-  "lead": rgb(63, 63, 78),
-  "black": black,
-  "white": white
-) !default;
+// colors
+$ym-colors-red: rgb(215, 61, 61);
+$ym-colors-orange: rgb(224, 104, 20);
+$ym-colors-yellow: rgb(211, 161, 7);
+$ym-colors-green: rgb(31, 177, 85);
+$ym-colors-teal: rgb(18, 166, 149);
+$ym-colors-cyan: rgb(5, 164, 191);
+$ym-colors-blue: rgb(53, 117, 221);
+$ym-colors-indigo: rgb(89, 92, 217);
+$ym-colors-violet: rgb(125, 83, 221);
+$ym-colors-pink: rgb(212, 65, 138);
+$ym-colors-gray: rgb(96, 103, 115);
+$ym-colors-lead: rgb(63, 63, 78);
+$ym-colors-black: rgb(0, 0, 0);
+$ym-colors-white: rgb(255, 255, 255);
+$ym-colors-transparent: rgba(255, 255, 255, 0);
 
-//borders & background
-$base-border: 1px !default;
-$base-border-radius: 8px !default;
-$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
+// borders & background
+$yma-border: 1px;
+$yma-border-radius: 4px;
+$yma-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 
 // box model
-$base-height: 0.25rem !default;
-$base-width: 0.25rem !default;
-$base-padding: 0.75rem !default;
-$base-margin: 0.75rem !default;
-$base-flex-basis: 1rem !default;
-$base-flex-grow: 1 !default;
-$base-flex-shrink: 1 !default;
+$yma-height: 0.25rem;
+$yma-width: 0.25rem;
+$yma-padding: 0.75rem;
+$yma-margin: 0.75rem;
+$yma-flex-basis: 1rem;
+$yma-flex-grow: 1;
+$yma-flex-shrink: 1;
 
 // flexbox & grid
-$base-column-gap: 0.25rem !default;
-$base-flex: 1 !default;
-$base-template-columns: 0.25rem !default;
-$base-template-rows: 0.25rem !default;
-$base-row-gap: 0.25rem !default;
+$yma-column-gap: 0.25rem;
+$yma-flex: 1;
+$yma-row-gap: 0.25rem;
 
 // positioning
-$base-columns: 1 !default;
-$base-direction: 1px !default;
+$yma-columns: 1;
+$yma-direction: 1px;
 
 // typography & text
-$base-font-size: 1rem !default;
-$base-font-weight: 500 !default;
-$base-font-size-xs: $base-font-size * 0.6 !default;
-$base-font-size-sm: $base-font-size * 0.75 !default;
-$base-font-size-md: $base-font-size * 1.75 !default;
-$base-font-size-lg: $base-font-size * 2 !default;
-$base-font-size-xl: $base-font-size * 3 !default;
-$base-system-fonts: system-ui, sans-serif;
-$base-charter-fonts: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
-$base-inter-fonts: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
-$base-monospace-fonts: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+$yma-font-size: 16px;
+$yma-font-weight: 500;
+$yma-font-size-xs: $yma-font-size * 0.75;
+$yma-font-size-sm: $yma-font-size * 0.9;
+$yma-font-size-md: $yma-font-size;
+$yma-font-size-lg: $yma-font-size * 1.2;
+$yma-font-size-xl: $yma-font-size * 1.44;
+$yma-font-size-2xl: $yma-font-size * 1.88;
+$yma-font-size-3xl: $yma-font-size * 2.22;
+$yma-font-size-6xl: $yma-font-size * 3.66;
 
-// custom values
-$custom-values: (
+$yma-system-fonts: system-ui, sans-serif;
+$yma-charter-fonts: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+$yma-inter-fonts: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
+$yma-monospace-fonts: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+
+// additional values map
+$additional-classes: (
   "auto": auto,
+  "fc": fit-content,
   "full": 100%,
   "half": 50%
 );
 
-$custom-height-values: (
-  "1\\/1": 100vh,
-  "1\\/2": 50vh
+//dynamic values map
+$dynamic-height-values: (
+  "1\\/1": 100dvh,
+  "1\\/2": 50dvh
 );
 
-$custom-width-values: (
-  "1\\/1": 100vw,
-  "2\\/1": 50vw
+$dynamic-width-values: (
+  "1\\/1": 100dvw,
+  "2\\/1": 50dvw
+);
+
+// colors map
+$yma-colors: (
+  "red": $ym-colors-red,
+  "orange": $ym-colors-orange,
+  "yellow": $ym-colors-yellow,
+  "green": $ym-colors-green,
+  "teal": $ym-colors-teal,
+  "cyan": $ym-colors-cyan,
+  "blue": $ym-colors-blue,
+  "indigo": $ym-colors-indigo,
+  "violet": $ym-colors-violet,
+  "pink": $ym-colors-pink,
+  "gray": $ym-colors-gray,
+  "lead": $ym-colors-lead,
+  "black": $ym-colors-black,
+  "white": $ym-colors-white,
+  "transparent": $ym-colors-transparent
 );
