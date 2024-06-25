@@ -1,0 +1,104 @@
+// base colors
+$yma-colors-red: rgb(215, 61, 61);
+$yma-colors-orange: rgb(224, 104, 20);
+$yma-colors-yellow: rgb(211, 161, 7);
+$yma-colors-green: rgb(31, 177, 85);
+$yma-colors-teal: rgb(18, 166, 149);
+$yma-colors-cyan: rgb(5, 164, 191);
+$yma-colors-blue: rgb(53, 117, 221);
+$yma-colors-indigo: rgb(89, 92, 217);
+$yma-colors-violet: rgb(125, 83, 221);
+$yma-colors-pink: rgb(212, 65, 138);
+$yma-colors-slate: rgb(123, 134, 151);
+$yma-colors-gray: rgb(96, 103, 115);
+$yma-colors-lead: rgb(63, 63, 78);
+$yma-colors-black: black;
+$yma-colors-white: white;
+$yma-colors-transparent: transparent;
+
+// borders & outlines
+$yma-border: 1px;
+$yma-border-radius: 4px;
+$yma-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+$yma-outline-offset: 2px;
+$yma-outline-width: 2px;
+$yma-decoration-thickness: 2px;
+
+// box model
+$yma-height: 0.25rem;
+$yma-width: 0.25rem;
+$yma-padding: 0.25rem;
+$yma-margin: 0.25rem;
+$yma-spacing: 0.25rem;
+
+// effects & filters
+$yma-backdrop-blur: 4px;
+
+// flexbox & grid
+$yma-flex-basis: 1rem;
+$yma-flex-grow: 1;
+$yma-flex-shrink: 1;
+$yma-gap: 0.25rem;
+$yma-column-gap: 0.25rem;
+$yma-flex: 1;
+$yma-row-gap: 0.25rem;
+
+// layout
+$yma-columns: 1;
+$yma-direction: 1px;
+
+// typography
+$yma-font-size: 16px;
+$yma-font-weight: 500;
+$yma-font-size-xs: $yma-font-size * 0.75;
+$yma-font-size-sm: $yma-font-size * 0.9;
+$yma-font-size-md: $yma-font-size;
+$yma-font-size-lg: $yma-font-size * 1.2;
+$yma-font-size-xl: $yma-font-size * 1.44;
+$yma-font-size-2xl: $yma-font-size * 1.88;
+$yma-font-size-3xl: $yma-font-size * 2.22;
+$yma-font-size-6xl: $yma-font-size * 3.66;
+
+$yma-font-charter: Charter, Cambria, serif;
+$yma-font-mono: ui-monospace, Consolas, monospace;
+$yma-font-system: system-ui, sans-serif;
+
+// extensions
+$yma-extension: (
+  "auto": auto,
+  "fc": fit-content,
+  "full": 100%,
+  "half": 50%,
+  "max": max-content,
+  "min": min-content
+);
+
+$yma-height-extension: (
+  "1\\/1": 100dvh,
+  "1\\/2": 50dvh
+);
+
+$yma-width-extension: (
+  "1\\/1": 100dvw,
+  "2\\/1": 50dvw
+);
+
+// colors map
+$yma-colors: (
+  "red": $yma-colors-red,
+  "orange": $yma-colors-orange,
+  "yellow": $yma-colors-yellow,
+  "green": $yma-colors-green,
+  "teal": $yma-colors-teal,
+  "cyan": $yma-colors-cyan,
+  "blue": $yma-colors-blue,
+  "indigo": $yma-colors-indigo,
+  "violet": $yma-colors-violet,
+  "pink": $yma-colors-pink,
+  "gray": $yma-colors-gray,
+  "slate": $yma-colors-slate,
+  "lead": $yma-colors-lead,
+  "black": $yma-colors-black,
+  "white": $yma-colors-white,
+  "transparent": $yma-colors-transparent
+);

@@ -1,0 +1,18 @@
+@import "mixins";
+@import "breakpoints";
+
+.cnt {
+  width: 100%;
+
+  @each $bp, $bp_value in $yma-breakpoints {
+    @include breakpoint($bp_value) {
+      max-width: $bp_value;
+    }
+  }
+}
+
+.ins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

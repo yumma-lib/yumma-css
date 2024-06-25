@@ -22,7 +22,7 @@
         }
     }
 
-    @if ($v !=black and $v !=white) {
+    @if (is-not-mono($v, $yma-colors)) {
         @for $i from 1 through 6 {
             .btn-l-#{$k}-#{$i} {
                 @include btn(mix(white, $v, $i * 10%));
@@ -41,15 +41,6 @@
                     background-color: darken($v, 25%);
                 }
             }
-        }
-    }
-
-    .btn-otl-#{$k} {
-        @include btn(#fff);
-        border: $yma-border solid $v;
-
-        &:hover {
-            background-color: $v;
         }
     }
 }

@@ -1,0 +1,344 @@
+@import "breakpoints";
+
+@mixin color-variants($property, $prefix, $k, $v) {
+  .#{$prefix}-#{$k} {
+    #{$property}: $v;
+  }
+
+  .h\:#{$prefix}-#{$k} {
+    &:hover {
+      #{$property}: $v;
+    }
+  }
+}
+
+@mixin shade-variants($property, $prefix, $k, $v, $mod) {
+  @for $i from 1 through 6 {
+    // light variants
+    .#{$prefix}-l-#{$k}-#{$i} {
+      #{$property}: mix(white, $v, $i * $mod);
+    }
+
+    .h\:#{$prefix}-l-#{$k}-#{$i} {
+      &:hover {
+        #{$property}: mix(black, $v, $i * $mod);
+      }
+    }
+
+    // dark variants
+    .#{$prefix}-d-#{$k}-#{$i} {
+      #{$property}: mix(black, $v, $i * $mod);
+    }
+
+    .h\:#{$prefix}-d-#{$k}-#{$i} {
+      &:hover {
+        #{$property}: mix(black, $v, $i * $mod);
+      }
+    }
+  }
+}
+
+@mixin variants($property, $prefix, $unit) {
+  @for $i from 0 through 100 {
+    .#{$prefix}-#{$i} {
+      #{$property}: $i * $unit;
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:#{$prefix}-#{$i} {
+        @include breakpoint($bp_value) {
+          #{$property}: $i * $unit;
+        }
+      }
+    }
+  }
+}
+
+@mixin dimension-variants($prefix, $height-unit, $width-unit) {
+  @for $i from 0 through 100 {
+    .#{$prefix}-#{$i} {
+      height: $i * $height-unit;
+      width: $i * $width-unit;
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:#{$prefix}-#{$i} {
+        @include breakpoint($bp_value) {
+          height: $i * $height-unit;
+          width: $i * $width-unit;
+        }
+      }
+    }
+  }
+}
+
+@mixin x-axis-variants($property, $prefix, $unit) {
+  @for $i from 0 through 100 {
+    .#{$prefix}-#{$i} {
+      #{$property}-left: $i * $unit;
+      #{$property}-right: $i * $unit;
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:#{$prefix}-#{$i} {
+        @include breakpoint($bp_value) {
+          #{$property}-left: $i * $unit;
+          #{$property}-right: $i * $unit;
+        }
+      }
+    }
+  }
+}
+
+@mixin y-axis-variants($property, $prefix, $unit) {
+  @for $i from 0 through 100 {
+    .#{$prefix}-#{$i} {
+      #{$property}-top: $i * $unit;
+      #{$property}-bottom: $i * $unit;
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:#{$prefix}-#{$i} {
+        @include breakpoint($bp_value) {
+          #{$property}-top: $i * $unit;
+          #{$property}-bottom: $i * $unit;
+        }
+      }
+    }
+  }
+}
+
+@mixin spacing-x($prefix, $unit) {
+  @for $i from 0 through 100 {
+    .#{$prefix}-#{$i} > :not([hidden]) ~ :not([hidden]) {
+      --yma-spacing-x: 0;
+      margin-right: calc(#{$i * $unit} * var(--yma-spacing-x));
+      margin-left: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-x)));
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:#{$prefix}-#{$i} > :not([hidden]) ~ :not([hidden]) {
+        @include breakpoint($bp_value) {
+          --yma-spacing-x: 0;
+          margin-right: calc(#{$i * $unit} * var(--yma-spacing-x));
+          margin-left: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-x)));
+        }
+      }
+    }
+  }
+}
+
+@mixin spacing-y($prefix, $unit) {
+  @for $i from 0 through 100 {
+    .#{$prefix}-#{$i} > :not([hidden]) ~ :not([hidden]) {
+      --yma-spacing-y: 0;
+      margin-top: calc(#{$i * $unit} * var(--yma-spacing-y));
+      margin-bottom: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-y)));
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:#{$prefix}-#{$i} > :not([hidden]) ~ :not([hidden]) {
+        @include breakpoint($bp_value) {
+          --yma-spacing-y: 0;
+          margin-top: calc(#{$i * $unit} * var(--yma-spacing-y));
+          margin-bottom: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-y)));
+        }
+      }
+    }
+  }
+}
+
+// Yumma CSS Utility Extensions
+@mixin extensions($map, $prefixes) {
+  @each $k, $v in $map {
+    @each $prefix, $property in $prefixes {
+      .#{$prefix}-#{$k} {
+        #{$property}: $v;
+      }
+
+      @each $bp, $bp_value in $yma-breakpoints {
+        .#{$bp}\:#{$prefix}-#{$k} {
+          @include breakpoint($bp_value) {
+            #{$property}: $v;
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin dimension-extensions($map) {
+  @each $k, $v in $map {
+    .dim-#{$k} {
+      height: $v;
+      width: $v;
+    }
+
+    .max-dim-#{$k} {
+      max-height: $v;
+      max-width: $v;
+    }
+
+    .min-dim-#{$k} {
+      min-height: $v;
+      min-width: $v;
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:dim-#{$k} {
+        @include breakpoint($bp_value) {
+          height: $v;
+          width: $v;
+        }
+      }
+
+      .#{$bp}\:max-dim-#{$k} {
+        @include breakpoint($bp_value) {
+          max-height: $v;
+          max-width: $v;
+        }
+      }
+
+      .#{$bp}\:min-dim-#{$k} {
+        @include breakpoint($bp_value) {
+          min-height: $v;
+          min-width: $v;
+        }
+      }
+    }
+  }
+}
+
+@mixin spacing-extensions($map, $prefixes, $property) {
+  @each $k, $v in $map {
+    @if $k == "auto" {
+      @each $prefix in $prefixes {
+        .#{$prefix}-#{$k} {
+          #{$property}: $v;
+        }
+      }
+
+      .mx-#{$k} {
+        margin-left: $v;
+        margin-right: $v;
+      }
+
+      .px-#{$k} {
+        padding-left: $v;
+        padding-right: $v;
+      }
+
+      .my-#{$k} {
+        margin-bottom: $v;
+        margin-top: $v;
+      }
+
+      .py-#{$k} {
+        padding-bottom: $v;
+        padding-top: $v;
+      }
+
+      @each $bp, $bp_value in $yma-breakpoints {
+        @each $prefix in $prefixes {
+          .#{$bp}\:#{$prefix}-#{$k} {
+            @include breakpoint($bp_value) {
+              #{$property}: $v;
+            }
+          }
+        }
+
+        .#{$bp}\:mx-#{$k} {
+          @include breakpoint($bp_value) {
+            margin-left: $v;
+            margin-right: $v;
+          }
+        }
+
+        .#{$bp}\:px-#{$k} {
+          @include breakpoint($bp_value) {
+            padding-left: $v;
+            padding-right: $v;
+          }
+        }
+
+        .#{$bp}\:my-#{$k} {
+          @include breakpoint($bp_value) {
+            margin-bottom: $v;
+            margin-top: $v;
+          }
+        }
+
+        .#{$bp}\:py-#{$k} {
+          @include breakpoint($bp_value) {
+            padding-bottom: $v;
+            padding-top: $v;
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin height-extensions($map) {
+  @each $k, $v in $map {
+    .h-#{$k} {
+      height: $v;
+    }
+    .max-h-#{$k} {
+      max-height: $v;
+    }
+    .min-h-#{$k} {
+      min-height: $v;
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:h-#{$k} {
+        @include breakpoint($bp_value) {
+          height: $v;
+        }
+      }
+      .#{$bp}\:max-h-#{$k} {
+        @include breakpoint($bp_value) {
+          max-height: $v;
+        }
+      }
+      .#{$bp}\:min-h-#{$k} {
+        @include breakpoint($bp_value) {
+          min-height: $v;
+        }
+      }
+    }
+  }
+}
+
+@mixin width-extensions($map) {
+  @each $k, $v in $map {
+    .w-#{$k} {
+      width: $v;
+    }
+    .max-w-#{$k} {
+      max-width: $v;
+    }
+    .min-w-#{$k} {
+      min-width: $v;
+    }
+
+    @each $bp, $bp_value in $yma-breakpoints {
+      .#{$bp}\:w-#{$k} {
+        @include breakpoint($bp_value) {
+          width: $v;
+        }
+      }
+      .#{$bp}\:max-w-#{$k} {
+        @include breakpoint($bp_value) {
+          max-width: $v;
+        }
+      }
+      .#{$bp}\:min-w-#{$k} {
+        @include breakpoint($bp_value) {
+          min-width: $v;
+        }
+      }
+    }
+  }
+}

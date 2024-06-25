@@ -17,7 +17,7 @@
         @include badge($v);
     }
 
-    @if ($v !=black and $v !=white) {
+    @if (is-not-mono($v, $yma-colors)) {
         @for $i from 1 through 6 {
             .badge-l-#{$k}-#{$i} {
                 @include badge(mix(white, $v, $i * 10%));

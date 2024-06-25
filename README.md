@@ -1,18 +1,16 @@
 <p align="center">
-  <img src="https://yummacss.com/img/yummacss.png" width="64" alt="Yumma CSS Logo">
+  <img src="https://yummacss.com/img/icon/favicon.ico" alt="Yumma CSS Logo">
 </p>
 
 <h3 align="center">Yumma CSS</h3>
 
 <p align="center">
-  Build beautiful websites with small class names
+  Quickly build applications with less code in your markup
   <br>
   <a href="https://yummacss.com"><strong>Explore Yumma CSS Docs ↝</strong></a>
   <br>
   <br>
-  <a href="https://yummacss.com/playground">Try Yumma CSS</a>
-  •
-  <a href="https://yummacss.com/blog/introducing-yummacss-intelephense">Our Extension</a>
+  <a href="https://yummacss.com/blog/installationducing-yummacss-intellisense">Yumma CSS IntelliSense</a>
   •
   <a href="https://yummacss.com/blog">Blog</a>
   •
@@ -31,13 +29,13 @@
   </a>
 </p>
 
-## Getting Started
+## Get started
 
 You can use [npm](https://www.npmjs.com/yummacss) to include the Yumma CSS in your project, or you can add it using [jsDelivr](https://www.jsdelivr.com/):
 
 ### cdn
 ```
-<link href="https://cdn.jsdelivr.net/npm/yummacss/dist/yumma.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/gh/yumma-lib/yumma-css/dist/yumma.min.css" rel="stylesheet" crossorigin="anonymous">
 ```
 
 ### npm
