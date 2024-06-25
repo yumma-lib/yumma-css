@@ -1083,7 +1083,7 @@ $yma-utilities: (
 @include x-axis-variants("padding", "px", $yma-padding);
 @include y-axis-variants("padding", "py", $yma-padding);
 
-@include variants(flex-basis, fb, $yma-flex-basis);
+@include variants("flex-basis", "fb", $yma-flex-basis);
 
 // extensions
 @include extensions(
