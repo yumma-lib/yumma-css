@@ -116056,22 +116056,6 @@ hr {
   margin: auto;
 }
 
-.mb-auto {
-  margin: auto;
-}
-
-.ml-auto {
-  margin: auto;
-}
-
-.mr-auto {
-  margin: auto;
-}
-
-.mt-auto {
-  margin: auto;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -116094,30 +116078,6 @@ hr {
 
 @media (min-width: 640px) {
   .sm\:m-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:mb-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:ml-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:mr-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:mt-auto {
     margin: auto;
   }
 }
@@ -116157,30 +116117,6 @@ hr {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:ml-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:mr-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:mt-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 768px) {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -116210,30 +116146,6 @@ hr {
 
 @media (min-width: 1024px) {
   .lg\:m-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:mb-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:ml-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:mr-auto {
-    margin: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:mt-auto {
     margin: auto;
   }
 }
@@ -116273,26 +116185,642 @@ hr {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.py-auto {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:mb-auto {
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mb-auto {
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mb-auto {
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
   .xl\:mb-auto {
-    margin: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.py-auto {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:ml-auto {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:ml-auto {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:ml-auto {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:ml-auto {
-    margin: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.py-auto {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:mr-auto {
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mr-auto {
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-auto {
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:mr-auto {
-    margin: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.py-auto {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:mt-auto {
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mt-auto {
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mt-auto {
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:mt-auto {
-    margin: auto;
+    margin-top: auto;
   }
 }
 
@@ -116328,22 +116856,6 @@ hr {
   padding: auto;
 }
 
-.pb-auto {
-  padding: auto;
-}
-
-.pl-auto {
-  padding: auto;
-}
-
-.pr-auto {
-  padding: auto;
-}
-
-.pt-auto {
-  padding: auto;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -116366,30 +116878,6 @@ hr {
 
 @media (min-width: 640px) {
   .sm\:p-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:pb-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:pl-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:pr-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:pt-auto {
     padding: auto;
   }
 }
@@ -116429,30 +116917,6 @@ hr {
 }
 
 @media (min-width: 768px) {
-  .md\:pb-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:pl-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:pr-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:pt-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 768px) {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -116482,30 +116946,6 @@ hr {
 
 @media (min-width: 1024px) {
   .lg\:p-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:pb-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:pl-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:pr-auto {
-    padding: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:pt-auto {
     padding: auto;
   }
 }
@@ -116545,26 +116985,642 @@ hr {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+.pb-auto {
+  padding-bottom: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.py-auto {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:pb-auto {
+    padding-bottom: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:pb-auto {
+    padding-bottom: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:pb-auto {
+    padding-bottom: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
   .xl\:pb-auto {
-    padding: auto;
+    padding-bottom: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+.pl-auto {
+  padding-left: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.py-auto {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:pl-auto {
+    padding-left: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:pl-auto {
+    padding-left: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:pl-auto {
+    padding-left: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:pl-auto {
-    padding: auto;
+    padding-left: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.py-auto {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:pr-auto {
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:pr-auto {
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:pr-auto {
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:pr-auto {
-    padding: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+.pt-auto {
+  padding-top: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.py-auto {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:pt-auto {
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:pt-auto {
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:pt-auto {
+    padding-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-auto {
+    padding-left: auto;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:pt-auto {
-    padding: auto;
+    padding-top: auto;
   }
 }
 
