@@ -15,10 +15,11 @@
     "url": "https://github.com/yumma-lib/yumma-css/issues"
   },
   "scripts": {
-    "std": "gulp standardFile",
-    "min": "gulp minifiedFile",
+    "all": "npm-run-all --sequential std min core mincore",
     "core": "gulp coreFile",
+    "min": "gulp minifiedFile",
     "mincore": "gulp minifiedCoreFile",
+    "std": "gulp standardFile",
     "watch": "gulp watchFiles"
   },
   "devDependencies": {
@@ -28,6 +29,7 @@
     "gulp-purgecss": "^5.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
+    "npm-run-all": "^4.1.5",
     "sass": "^1.62.1"
   }
 }
