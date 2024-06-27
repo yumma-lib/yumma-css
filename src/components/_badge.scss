@@ -3,7 +3,7 @@
 @mixin badge($bg-color: map-get($yma-colors, "white")) {
     border-radius: $yma-border-radius * 4;
     background-color: $bg-color;
-    padding: math.div($yma-padding, 4) math.div($yma-padding, 2);
+    padding: math.div($yma-padding, 2) math.div($yma-padding, 1);
     font-size: $yma-font-size-sm;
     font-weight: normal;
 }

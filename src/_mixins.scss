@@ -111,17 +111,17 @@
 @mixin spacing-x($prefix, $unit) {
   @for $i from 0 through 100 {
     .#{$prefix}-#{$i} > :not([hidden]) ~ :not([hidden]) {
-      --yma-spacing-x: 0;
-      margin-right: calc(#{$i * $unit} * var(--yma-spacing-x));
-      margin-left: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-x)));
+      --yma-spacing-x: 1;
+      margin-left: calc(#{$i * $unit} * var(--yma-spacing-x));
+      margin-right: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-x)));
     }
 
     @each $bp, $bp_value in $yma-breakpoints {
       .#{$bp}\:#{$prefix}-#{$i} > :not([hidden]) ~ :not([hidden]) {
         @include breakpoint($bp_value) {
-          --yma-spacing-x: 0;
-          margin-right: calc(#{$i * $unit} * var(--yma-spacing-x));
+          --yma-spacing-x: 1;
           margin-left: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-x)));
+          margin-right: calc(#{$i * $unit} * var(--yma-spacing-x));
         }
       }
     }
@@ -131,7 +131,7 @@
 @mixin spacing-y($prefix, $unit) {
   @for $i from 0 through 100 {
     .#{$prefix}-#{$i} > :not([hidden]) ~ :not([hidden]) {
-      --yma-spacing-y: 0;
+      --yma-spacing-y: 1;
       margin-top: calc(#{$i * $unit} * var(--yma-spacing-y));
       margin-bottom: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-y)));
     }
@@ -139,7 +139,7 @@
     @each $bp, $bp_value in $yma-breakpoints {
       .#{$bp}\:#{$prefix}-#{$i} > :not([hidden]) ~ :not([hidden]) {
         @include breakpoint($bp_value) {
-          --yma-spacing-y: 0;
+          --yma-spacing-y: 1;
           margin-top: calc(#{$i * $unit} * var(--yma-spacing-y));
           margin-bottom: calc(#{$i * $unit} * calc(1 - var(--yma-spacing-y)));
         }
