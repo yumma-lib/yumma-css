@@ -1,8 +1,8 @@
 // Yumma CSS - Stylecent
 
-$include-base: true !default;
+$stylecent: true !default;
 
-@if $include-base {
+@if $stylecent {
     *,
     *::before,
     *::after {

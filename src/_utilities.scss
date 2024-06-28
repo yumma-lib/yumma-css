@@ -1,7 +1,7 @@
 @use "sass:math";
 
-@import "mixins";
-@import "breakpoints";
+@import "abstracts/mixins";
+@import "abstracts/breakpoints";
 
 $yma-utilities: (
     // borders & outlines

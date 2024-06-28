@@ -1,16 +1,16 @@
-@import "variables";
-@import "functions";
-@import "mixins";
+// abstracts
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/breakpoints";
+@import "abstracts/layout";
+@import "abstracts/colors";
 
-
-@import "base"; // stylecent lives here
-@import "breakpoints";
-@import "layout";
-
-@import "colors";
-
-@import "components/badge";
-@import "components/button";
-
+// base & utils
+@import "stylecent";
 @import "fonts";
 @import "utilities";
+
+// components
+@import "components/badge";
+@import "components/button";
