@@ -12,6 +12,7 @@ All notable changes to the Yumma CSS will be documented in this file.
 - Add **Border Style** utilities
 - Add **Caption Side** utilities
 - Add **Container** utilities
+- Add **Fill** utilities
 - Add **Font Style** utilities
 - Add **Gap** utilities
 - Add **Object Fit** utilities

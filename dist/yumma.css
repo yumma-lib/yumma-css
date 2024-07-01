@@ -100,6 +100,14 @@
   color: rgb(215, 61, 61);
 }
 
+.f-red {
+  fill: rgb(215, 61, 61);
+}
+
+.h\:f-red:hover {
+  fill: rgb(215, 61, 61);
+}
+
 .oc-red {
   outline-color: rgb(215, 61, 61);
 }
@@ -980,6 +988,102 @@
   color: #561818;
 }
 
+.f-l-red-1 {
+  fill: #db5050;
+}
+
+.h\:f-l-red-1:hover {
+  fill: #c23737;
+}
+
+.f-d-red-1 {
+  fill: #c23737;
+}
+
+.h\:f-d-red-1:hover {
+  fill: #c23737;
+}
+
+.f-l-red-2 {
+  fill: #df6464;
+}
+
+.h\:f-l-red-2:hover {
+  fill: #ac3131;
+}
+
+.f-d-red-2 {
+  fill: #ac3131;
+}
+
+.h\:f-d-red-2:hover {
+  fill: #ac3131;
+}
+
+.f-l-red-3 {
+  fill: #e37777;
+}
+
+.h\:f-l-red-3:hover {
+  fill: #972b2b;
+}
+
+.f-d-red-3 {
+  fill: #972b2b;
+}
+
+.h\:f-d-red-3:hover {
+  fill: #972b2b;
+}
+
+.f-l-red-4 {
+  fill: #e78b8b;
+}
+
+.h\:f-l-red-4:hover {
+  fill: #812525;
+}
+
+.f-d-red-4 {
+  fill: #812525;
+}
+
+.h\:f-d-red-4:hover {
+  fill: #812525;
+}
+
+.f-l-red-5 {
+  fill: #eb9e9e;
+}
+
+.h\:f-l-red-5:hover {
+  fill: #6c1f1f;
+}
+
+.f-d-red-5 {
+  fill: #6c1f1f;
+}
+
+.h\:f-d-red-5:hover {
+  fill: #6c1f1f;
+}
+
+.f-l-red-6 {
+  fill: #efb1b1;
+}
+
+.h\:f-l-red-6:hover {
+  fill: #561818;
+}
+
+.f-d-red-6 {
+  fill: #561818;
+}
+
+.h\:f-d-red-6:hover {
+  fill: #561818;
+}
+
 .oc-l-red-1 {
   outline-color: #db5050;
 }
@@ -1242,6 +1346,14 @@
 
 .h\:t-orange:hover {
   color: rgb(224, 104, 20);
+}
+
+.f-orange {
+  fill: rgb(224, 104, 20);
+}
+
+.h\:f-orange:hover {
+  fill: rgb(224, 104, 20);
 }
 
 .oc-orange {
@@ -2124,6 +2236,102 @@
   color: #5a2a08;
 }
 
+.f-l-orange-1 {
+  fill: #e3772c;
+}
+
+.h\:f-l-orange-1:hover {
+  fill: #ca5e12;
+}
+
+.f-d-orange-1 {
+  fill: #ca5e12;
+}
+
+.h\:f-d-orange-1:hover {
+  fill: #ca5e12;
+}
+
+.f-l-orange-2 {
+  fill: #e68643;
+}
+
+.h\:f-l-orange-2:hover {
+  fill: #b35310;
+}
+
+.f-d-orange-2 {
+  fill: #b35310;
+}
+
+.h\:f-d-orange-2:hover {
+  fill: #b35310;
+}
+
+.f-l-orange-3 {
+  fill: #e9955b;
+}
+
+.h\:f-l-orange-3:hover {
+  fill: #9d490e;
+}
+
+.f-d-orange-3 {
+  fill: #9d490e;
+}
+
+.h\:f-d-orange-3:hover {
+  fill: #9d490e;
+}
+
+.f-l-orange-4 {
+  fill: #eca472;
+}
+
+.h\:f-l-orange-4:hover {
+  fill: #863e0c;
+}
+
+.f-d-orange-4 {
+  fill: #863e0c;
+}
+
+.h\:f-d-orange-4:hover {
+  fill: #863e0c;
+}
+
+.f-l-orange-5 {
+  fill: #f0b48a;
+}
+
+.h\:f-l-orange-5:hover {
+  fill: #70340a;
+}
+
+.f-d-orange-5 {
+  fill: #70340a;
+}
+
+.h\:f-d-orange-5:hover {
+  fill: #70340a;
+}
+
+.f-l-orange-6 {
+  fill: #f3c3a1;
+}
+
+.h\:f-l-orange-6:hover {
+  fill: #5a2a08;
+}
+
+.f-d-orange-6 {
+  fill: #5a2a08;
+}
+
+.h\:f-d-orange-6:hover {
+  fill: #5a2a08;
+}
+
 .oc-l-orange-1 {
   outline-color: #e3772c;
 }
@@ -2386,6 +2594,14 @@
 
 .h\:t-yellow:hover {
   color: rgb(211, 161, 7);
+}
+
+.f-yellow {
+  fill: rgb(211, 161, 7);
+}
+
+.h\:f-yellow:hover {
+  fill: rgb(211, 161, 7);
 }
 
 .oc-yellow {
@@ -3268,6 +3484,102 @@
   color: #544003;
 }
 
+.f-l-yellow-1 {
+  fill: #d7aa20;
+}
+
+.h\:f-l-yellow-1:hover {
+  fill: #be9106;
+}
+
+.f-d-yellow-1 {
+  fill: #be9106;
+}
+
+.h\:f-d-yellow-1:hover {
+  fill: #be9106;
+}
+
+.f-l-yellow-2 {
+  fill: #dcb439;
+}
+
+.h\:f-l-yellow-2:hover {
+  fill: #a98106;
+}
+
+.f-d-yellow-2 {
+  fill: #a98106;
+}
+
+.h\:f-d-yellow-2:hover {
+  fill: #a98106;
+}
+
+.f-l-yellow-3 {
+  fill: #e0bd51;
+}
+
+.h\:f-l-yellow-3:hover {
+  fill: #947105;
+}
+
+.f-d-yellow-3 {
+  fill: #947105;
+}
+
+.h\:f-d-yellow-3:hover {
+  fill: #947105;
+}
+
+.f-l-yellow-4 {
+  fill: #e5c76a;
+}
+
+.h\:f-l-yellow-4:hover {
+  fill: #7f6104;
+}
+
+.f-d-yellow-4 {
+  fill: #7f6104;
+}
+
+.h\:f-d-yellow-4:hover {
+  fill: #7f6104;
+}
+
+.f-l-yellow-5 {
+  fill: #e9d083;
+}
+
+.h\:f-l-yellow-5:hover {
+  fill: #6a5104;
+}
+
+.f-d-yellow-5 {
+  fill: #6a5104;
+}
+
+.h\:f-d-yellow-5:hover {
+  fill: #6a5104;
+}
+
+.f-l-yellow-6 {
+  fill: #edd99c;
+}
+
+.h\:f-l-yellow-6:hover {
+  fill: #544003;
+}
+
+.f-d-yellow-6 {
+  fill: #544003;
+}
+
+.h\:f-d-yellow-6:hover {
+  fill: #544003;
+}
+
 .oc-l-yellow-1 {
   outline-color: #d7aa20;
 }
@@ -3530,6 +3842,14 @@
 
 .h\:t-green:hover {
   color: rgb(31, 177, 85);
+}
+
+.f-green {
+  fill: rgb(31, 177, 85);
+}
+
+.h\:f-green:hover {
+  fill: rgb(31, 177, 85);
 }
 
 .oc-green {
@@ -4412,6 +4732,102 @@
   color: #0c4722;
 }
 
+.f-l-green-1 {
+  fill: #35b966;
+}
+
+.h\:f-l-green-1:hover {
+  fill: #1c9f4d;
+}
+
+.f-d-green-1 {
+  fill: #1c9f4d;
+}
+
+.h\:f-d-green-1:hover {
+  fill: #1c9f4d;
+}
+
+.f-l-green-2 {
+  fill: #4cc177;
+}
+
+.h\:f-l-green-2:hover {
+  fill: #198e44;
+}
+
+.f-d-green-2 {
+  fill: #198e44;
+}
+
+.h\:f-d-green-2:hover {
+  fill: #198e44;
+}
+
+.f-l-green-3 {
+  fill: #62c888;
+}
+
+.h\:f-l-green-3:hover {
+  fill: #167c3c;
+}
+
+.f-d-green-3 {
+  fill: #167c3c;
+}
+
+.h\:f-d-green-3:hover {
+  fill: #167c3c;
+}
+
+.f-l-green-4 {
+  fill: #79d099;
+}
+
+.h\:f-l-green-4:hover {
+  fill: #136a33;
+}
+
+.f-d-green-4 {
+  fill: #136a33;
+}
+
+.h\:f-d-green-4:hover {
+  fill: #136a33;
+}
+
+.f-l-green-5 {
+  fill: #8fd8aa;
+}
+
+.h\:f-l-green-5:hover {
+  fill: #10592b;
+}
+
+.f-d-green-5 {
+  fill: #10592b;
+}
+
+.h\:f-d-green-5:hover {
+  fill: #10592b;
+}
+
+.f-l-green-6 {
+  fill: #a5e0bb;
+}
+
+.h\:f-l-green-6:hover {
+  fill: #0c4722;
+}
+
+.f-d-green-6 {
+  fill: #0c4722;
+}
+
+.h\:f-d-green-6:hover {
+  fill: #0c4722;
+}
+
 .oc-l-green-1 {
   outline-color: #35b966;
 }
@@ -4674,6 +5090,14 @@
 
 .h\:t-teal:hover {
   color: rgb(18, 166, 149);
+}
+
+.f-teal {
+  fill: rgb(18, 166, 149);
+}
+
+.h\:f-teal:hover {
+  fill: rgb(18, 166, 149);
 }
 
 .oc-teal {
@@ -5556,6 +5980,102 @@
   color: #07423c;
 }
 
+.f-l-teal-1 {
+  fill: #2aafa0;
+}
+
+.h\:f-l-teal-1:hover {
+  fill: #109586;
+}
+
+.f-d-teal-1 {
+  fill: #109586;
+}
+
+.h\:f-d-teal-1:hover {
+  fill: #109586;
+}
+
+.f-l-teal-2 {
+  fill: #41b8aa;
+}
+
+.h\:f-l-teal-2:hover {
+  fill: #0e8577;
+}
+
+.f-d-teal-2 {
+  fill: #0e8577;
+}
+
+.h\:f-d-teal-2:hover {
+  fill: #0e8577;
+}
+
+.f-l-teal-3 {
+  fill: #59c1b5;
+}
+
+.h\:f-l-teal-3:hover {
+  fill: #0d7468;
+}
+
+.f-d-teal-3 {
+  fill: #0d7468;
+}
+
+.h\:f-d-teal-3:hover {
+  fill: #0d7468;
+}
+
+.f-l-teal-4 {
+  fill: #71cabf;
+}
+
+.h\:f-l-teal-4:hover {
+  fill: #0b6459;
+}
+
+.f-d-teal-4 {
+  fill: #0b6459;
+}
+
+.h\:f-d-teal-4:hover {
+  fill: #0b6459;
+}
+
+.f-l-teal-5 {
+  fill: #89d3ca;
+}
+
+.h\:f-l-teal-5:hover {
+  fill: #09534b;
+}
+
+.f-d-teal-5 {
+  fill: #09534b;
+}
+
+.h\:f-d-teal-5:hover {
+  fill: #09534b;
+}
+
+.f-l-teal-6 {
+  fill: #a0dbd5;
+}
+
+.h\:f-l-teal-6:hover {
+  fill: #07423c;
+}
+
+.f-d-teal-6 {
+  fill: #07423c;
+}
+
+.h\:f-d-teal-6:hover {
+  fill: #07423c;
+}
+
 .oc-l-teal-1 {
   outline-color: #2aafa0;
 }
@@ -5818,6 +6338,14 @@
 
 .h\:t-cyan:hover {
   color: rgb(5, 164, 191);
+}
+
+.f-cyan {
+  fill: rgb(5, 164, 191);
+}
+
+.h\:f-cyan:hover {
+  fill: rgb(5, 164, 191);
 }
 
 .oc-cyan {
@@ -6700,6 +7228,102 @@
   color: #02424c;
 }
 
+.f-l-cyan-1 {
+  fill: #1eadc5;
+}
+
+.h\:f-l-cyan-1:hover {
+  fill: #0594ac;
+}
+
+.f-d-cyan-1 {
+  fill: #0594ac;
+}
+
+.h\:f-d-cyan-1:hover {
+  fill: #0594ac;
+}
+
+.f-l-cyan-2 {
+  fill: #37b6cc;
+}
+
+.h\:f-l-cyan-2:hover {
+  fill: #048399;
+}
+
+.f-d-cyan-2 {
+  fill: #048399;
+}
+
+.h\:f-d-cyan-2:hover {
+  fill: #048399;
+}
+
+.f-l-cyan-3 {
+  fill: #50bfd2;
+}
+
+.h\:f-l-cyan-3:hover {
+  fill: #047386;
+}
+
+.f-d-cyan-3 {
+  fill: #047386;
+}
+
+.h\:f-d-cyan-3:hover {
+  fill: #047386;
+}
+
+.f-l-cyan-4 {
+  fill: #69c8d9;
+}
+
+.h\:f-l-cyan-4:hover {
+  fill: #036273;
+}
+
+.f-d-cyan-4 {
+  fill: #036273;
+}
+
+.h\:f-d-cyan-4:hover {
+  fill: #036273;
+}
+
+.f-l-cyan-5 {
+  fill: #82d2df;
+}
+
+.h\:f-l-cyan-5:hover {
+  fill: #035260;
+}
+
+.f-d-cyan-5 {
+  fill: #035260;
+}
+
+.h\:f-d-cyan-5:hover {
+  fill: #035260;
+}
+
+.f-l-cyan-6 {
+  fill: #9bdbe5;
+}
+
+.h\:f-l-cyan-6:hover {
+  fill: #02424c;
+}
+
+.f-d-cyan-6 {
+  fill: #02424c;
+}
+
+.h\:f-d-cyan-6:hover {
+  fill: #02424c;
+}
+
 .oc-l-cyan-1 {
   outline-color: #1eadc5;
 }
@@ -6962,6 +7586,14 @@
 
 .h\:t-blue:hover {
   color: rgb(53, 117, 221);
+}
+
+.f-blue {
+  fill: rgb(53, 117, 221);
+}
+
+.h\:f-blue:hover {
+  fill: rgb(53, 117, 221);
 }
 
 .oc-blue {
@@ -7844,6 +8476,102 @@
   color: #152f58;
 }
 
+.f-l-blue-1 {
+  fill: #4983e0;
+}
+
+.h\:f-l-blue-1:hover {
+  fill: #3069c7;
+}
+
+.f-d-blue-1 {
+  fill: #3069c7;
+}
+
+.h\:f-d-blue-1:hover {
+  fill: #3069c7;
+}
+
+.f-l-blue-2 {
+  fill: #5d91e4;
+}
+
+.h\:f-l-blue-2:hover {
+  fill: #2a5eb1;
+}
+
+.f-d-blue-2 {
+  fill: #2a5eb1;
+}
+
+.h\:f-d-blue-2:hover {
+  fill: #2a5eb1;
+}
+
+.f-l-blue-3 {
+  fill: #729ee7;
+}
+
+.h\:f-l-blue-3:hover {
+  fill: #25529b;
+}
+
+.f-d-blue-3 {
+  fill: #25529b;
+}
+
+.h\:f-d-blue-3:hover {
+  fill: #25529b;
+}
+
+.f-l-blue-4 {
+  fill: #86aceb;
+}
+
+.h\:f-l-blue-4:hover {
+  fill: #204685;
+}
+
+.f-d-blue-4 {
+  fill: #204685;
+}
+
+.h\:f-d-blue-4:hover {
+  fill: #204685;
+}
+
+.f-l-blue-5 {
+  fill: #9abaee;
+}
+
+.h\:f-l-blue-5:hover {
+  fill: #1b3b6f;
+}
+
+.f-d-blue-5 {
+  fill: #1b3b6f;
+}
+
+.h\:f-d-blue-5:hover {
+  fill: #1b3b6f;
+}
+
+.f-l-blue-6 {
+  fill: #aec8f1;
+}
+
+.h\:f-l-blue-6:hover {
+  fill: #152f58;
+}
+
+.f-d-blue-6 {
+  fill: #152f58;
+}
+
+.h\:f-d-blue-6:hover {
+  fill: #152f58;
+}
+
 .oc-l-blue-1 {
   outline-color: #4983e0;
 }
@@ -8106,6 +8834,14 @@
 
 .h\:t-indigo:hover {
   color: rgb(89, 92, 217);
+}
+
+.f-indigo {
+  fill: rgb(89, 92, 217);
+}
+
+.h\:f-indigo:hover {
+  fill: rgb(89, 92, 217);
 }
 
 .oc-indigo {
@@ -8988,6 +9724,102 @@
   color: #242557;
 }
 
+.f-l-indigo-1 {
+  fill: #6a6cdd;
+}
+
+.h\:f-l-indigo-1:hover {
+  fill: #5053c3;
+}
+
+.f-d-indigo-1 {
+  fill: #5053c3;
+}
+
+.h\:f-d-indigo-1:hover {
+  fill: #5053c3;
+}
+
+.f-l-indigo-2 {
+  fill: #7a7de1;
+}
+
+.h\:f-l-indigo-2:hover {
+  fill: #474aae;
+}
+
+.f-d-indigo-2 {
+  fill: #474aae;
+}
+
+.h\:f-d-indigo-2:hover {
+  fill: #474aae;
+}
+
+.f-l-indigo-3 {
+  fill: #8b8de4;
+}
+
+.h\:f-l-indigo-3:hover {
+  fill: #3e4098;
+}
+
+.f-d-indigo-3 {
+  fill: #3e4098;
+}
+
+.h\:f-d-indigo-3:hover {
+  fill: #3e4098;
+}
+
+.f-l-indigo-4 {
+  fill: #9b9de8;
+}
+
+.h\:f-l-indigo-4:hover {
+  fill: #353782;
+}
+
+.f-d-indigo-4 {
+  fill: #353782;
+}
+
+.h\:f-d-indigo-4:hover {
+  fill: #353782;
+}
+
+.f-l-indigo-5 {
+  fill: #acaeec;
+}
+
+.h\:f-l-indigo-5:hover {
+  fill: #2d2e6d;
+}
+
+.f-d-indigo-5 {
+  fill: #2d2e6d;
+}
+
+.h\:f-d-indigo-5:hover {
+  fill: #2d2e6d;
+}
+
+.f-l-indigo-6 {
+  fill: #bdbef0;
+}
+
+.h\:f-l-indigo-6:hover {
+  fill: #242557;
+}
+
+.f-d-indigo-6 {
+  fill: #242557;
+}
+
+.h\:f-d-indigo-6:hover {
+  fill: #242557;
+}
+
 .oc-l-indigo-1 {
   outline-color: #6a6cdd;
 }
@@ -9250,6 +10082,14 @@
 
 .h\:t-violet:hover {
   color: rgb(125, 83, 221);
+}
+
+.f-violet {
+  fill: rgb(125, 83, 221);
+}
+
+.h\:f-violet:hover {
+  fill: rgb(125, 83, 221);
 }
 
 .oc-violet {
@@ -10132,6 +10972,102 @@
   color: #322158;
 }
 
+.f-l-violet-1 {
+  fill: #8a64e0;
+}
+
+.h\:f-l-violet-1:hover {
+  fill: #714bc7;
+}
+
+.f-d-violet-1 {
+  fill: #714bc7;
+}
+
+.h\:f-d-violet-1:hover {
+  fill: #714bc7;
+}
+
+.f-l-violet-2 {
+  fill: #9775e4;
+}
+
+.h\:f-l-violet-2:hover {
+  fill: #6442b1;
+}
+
+.f-d-violet-2 {
+  fill: #6442b1;
+}
+
+.h\:f-d-violet-2:hover {
+  fill: #6442b1;
+}
+
+.f-l-violet-3 {
+  fill: #a487e7;
+}
+
+.h\:f-l-violet-3:hover {
+  fill: #583a9b;
+}
+
+.f-d-violet-3 {
+  fill: #583a9b;
+}
+
+.h\:f-d-violet-3:hover {
+  fill: #583a9b;
+}
+
+.f-l-violet-4 {
+  fill: #b198eb;
+}
+
+.h\:f-l-violet-4:hover {
+  fill: #4b3285;
+}
+
+.f-d-violet-4 {
+  fill: #4b3285;
+}
+
+.h\:f-d-violet-4:hover {
+  fill: #4b3285;
+}
+
+.f-l-violet-5 {
+  fill: #bea9ee;
+}
+
+.h\:f-l-violet-5:hover {
+  fill: #3f2a6f;
+}
+
+.f-d-violet-5 {
+  fill: #3f2a6f;
+}
+
+.h\:f-d-violet-5:hover {
+  fill: #3f2a6f;
+}
+
+.f-l-violet-6 {
+  fill: #cbbaf1;
+}
+
+.h\:f-l-violet-6:hover {
+  fill: #322158;
+}
+
+.f-d-violet-6 {
+  fill: #322158;
+}
+
+.h\:f-d-violet-6:hover {
+  fill: #322158;
+}
+
 .oc-l-violet-1 {
   outline-color: #8a64e0;
 }
@@ -10394,6 +11330,14 @@
 
 .h\:t-pink:hover {
   color: rgb(212, 65, 138);
+}
+
+.f-pink {
+  fill: rgb(212, 65, 138);
+}
+
+.h\:f-pink:hover {
+  fill: rgb(212, 65, 138);
 }
 
 .oc-pink {
@@ -11276,6 +12220,102 @@
   color: #551a37;
 }
 
+.f-l-pink-1 {
+  fill: #d85496;
+}
+
+.h\:f-l-pink-1:hover {
+  fill: #bf3b7c;
+}
+
+.f-d-pink-1 {
+  fill: #bf3b7c;
+}
+
+.h\:f-d-pink-1:hover {
+  fill: #bf3b7c;
+}
+
+.f-l-pink-2 {
+  fill: #dd67a1;
+}
+
+.h\:f-l-pink-2:hover {
+  fill: #aa346e;
+}
+
+.f-d-pink-2 {
+  fill: #aa346e;
+}
+
+.h\:f-d-pink-2:hover {
+  fill: #aa346e;
+}
+
+.f-l-pink-3 {
+  fill: #e17aad;
+}
+
+.h\:f-l-pink-3:hover {
+  fill: #942e61;
+}
+
+.f-d-pink-3 {
+  fill: #942e61;
+}
+
+.h\:f-d-pink-3:hover {
+  fill: #942e61;
+}
+
+.f-l-pink-4 {
+  fill: #e58db9;
+}
+
+.h\:f-l-pink-4:hover {
+  fill: #7f2753;
+}
+
+.f-d-pink-4 {
+  fill: #7f2753;
+}
+
+.h\:f-d-pink-4:hover {
+  fill: #7f2753;
+}
+
+.f-l-pink-5 {
+  fill: #eaa0c5;
+}
+
+.h\:f-l-pink-5:hover {
+  fill: #6a2145;
+}
+
+.f-d-pink-5 {
+  fill: #6a2145;
+}
+
+.h\:f-d-pink-5:hover {
+  fill: #6a2145;
+}
+
+.f-l-pink-6 {
+  fill: #eeb3d0;
+}
+
+.h\:f-l-pink-6:hover {
+  fill: #551a37;
+}
+
+.f-d-pink-6 {
+  fill: #551a37;
+}
+
+.h\:f-d-pink-6:hover {
+  fill: #551a37;
+}
+
 .oc-l-pink-1 {
   outline-color: #d85496;
 }
@@ -11538,6 +12578,14 @@
 
 .h\:t-gray:hover {
   color: rgb(96, 103, 115);
+}
+
+.f-gray {
+  fill: rgb(96, 103, 115);
+}
+
+.h\:f-gray:hover {
+  fill: rgb(96, 103, 115);
 }
 
 .oc-gray {
@@ -12420,6 +13468,102 @@
   color: #26292e;
 }
 
+.f-l-gray-1 {
+  fill: #707681;
+}
+
+.h\:f-l-gray-1:hover {
+  fill: #565d68;
+}
+
+.f-d-gray-1 {
+  fill: #565d68;
+}
+
+.h\:f-d-gray-1:hover {
+  fill: #565d68;
+}
+
+.f-l-gray-2 {
+  fill: #80858f;
+}
+
+.h\:f-l-gray-2:hover {
+  fill: #4d525c;
+}
+
+.f-d-gray-2 {
+  fill: #4d525c;
+}
+
+.h\:f-d-gray-2:hover {
+  fill: #4d525c;
+}
+
+.f-l-gray-3 {
+  fill: #90959d;
+}
+
+.h\:f-l-gray-3:hover {
+  fill: #434851;
+}
+
+.f-d-gray-3 {
+  fill: #434851;
+}
+
+.h\:f-d-gray-3:hover {
+  fill: #434851;
+}
+
+.f-l-gray-4 {
+  fill: #a0a4ab;
+}
+
+.h\:f-l-gray-4:hover {
+  fill: #3a3e45;
+}
+
+.f-d-gray-4 {
+  fill: #3a3e45;
+}
+
+.h\:f-d-gray-4:hover {
+  fill: #3a3e45;
+}
+
+.f-l-gray-5 {
+  fill: #b0b3b9;
+}
+
+.h\:f-l-gray-5:hover {
+  fill: #30343a;
+}
+
+.f-d-gray-5 {
+  fill: #30343a;
+}
+
+.h\:f-d-gray-5:hover {
+  fill: #30343a;
+}
+
+.f-l-gray-6 {
+  fill: #bfc2c7;
+}
+
+.h\:f-l-gray-6:hover {
+  fill: #26292e;
+}
+
+.f-d-gray-6 {
+  fill: #26292e;
+}
+
+.h\:f-d-gray-6:hover {
+  fill: #26292e;
+}
+
 .oc-l-gray-1 {
   outline-color: #707681;
 }
@@ -12682,6 +13826,14 @@
 
 .h\:t-slate:hover {
   color: rgb(123, 134, 151);
+}
+
+.f-slate {
+  fill: rgb(123, 134, 151);
+}
+
+.h\:f-slate:hover {
+  fill: rgb(123, 134, 151);
 }
 
 .oc-slate {
@@ -13564,6 +14716,102 @@
   color: #31363c;
 }
 
+.f-l-slate-1 {
+  fill: #8892a1;
+}
+
+.h\:f-l-slate-1:hover {
+  fill: #6f7988;
+}
+
+.f-d-slate-1 {
+  fill: #6f7988;
+}
+
+.h\:f-d-slate-1:hover {
+  fill: #6f7988;
+}
+
+.f-l-slate-2 {
+  fill: #959eac;
+}
+
+.h\:f-l-slate-2:hover {
+  fill: #626b79;
+}
+
+.f-d-slate-2 {
+  fill: #626b79;
+}
+
+.h\:f-d-slate-2:hover {
+  fill: #626b79;
+}
+
+.f-l-slate-3 {
+  fill: #a3aab6;
+}
+
+.h\:f-l-slate-3:hover {
+  fill: #565e6a;
+}
+
+.f-d-slate-3 {
+  fill: #565e6a;
+}
+
+.h\:f-d-slate-3:hover {
+  fill: #565e6a;
+}
+
+.f-l-slate-4 {
+  fill: #b0b6c1;
+}
+
+.h\:f-l-slate-4:hover {
+  fill: #4a505b;
+}
+
+.f-d-slate-4 {
+  fill: #4a505b;
+}
+
+.h\:f-d-slate-4:hover {
+  fill: #4a505b;
+}
+
+.f-l-slate-5 {
+  fill: #bdc3cb;
+}
+
+.h\:f-l-slate-5:hover {
+  fill: #3e434c;
+}
+
+.f-d-slate-5 {
+  fill: #3e434c;
+}
+
+.h\:f-d-slate-5:hover {
+  fill: #3e434c;
+}
+
+.f-l-slate-6 {
+  fill: #cacfd5;
+}
+
+.h\:f-l-slate-6:hover {
+  fill: #31363c;
+}
+
+.f-d-slate-6 {
+  fill: #31363c;
+}
+
+.h\:f-d-slate-6:hover {
+  fill: #31363c;
+}
+
 .oc-l-slate-1 {
   outline-color: #8892a1;
 }
@@ -13826,6 +15074,14 @@
 
 .h\:t-lead:hover {
   color: rgb(63, 63, 78);
+}
+
+.f-lead {
+  fill: rgb(63, 63, 78);
+}
+
+.h\:f-lead:hover {
+  fill: rgb(63, 63, 78);
 }
 
 .oc-lead {
@@ -14708,6 +15964,102 @@
   color: #19191f;
 }
 
+.f-l-lead-1 {
+  fill: #525260;
+}
+
+.h\:f-l-lead-1:hover {
+  fill: #393946;
+}
+
+.f-d-lead-1 {
+  fill: #393946;
+}
+
+.h\:f-d-lead-1:hover {
+  fill: #393946;
+}
+
+.f-l-lead-2 {
+  fill: #656571;
+}
+
+.h\:f-l-lead-2:hover {
+  fill: #32323e;
+}
+
+.f-d-lead-2 {
+  fill: #32323e;
+}
+
+.h\:f-d-lead-2:hover {
+  fill: #32323e;
+}
+
+.f-l-lead-3 {
+  fill: #797983;
+}
+
+.h\:f-l-lead-3:hover {
+  fill: #2c2c37;
+}
+
+.f-d-lead-3 {
+  fill: #2c2c37;
+}
+
+.h\:f-d-lead-3:hover {
+  fill: #2c2c37;
+}
+
+.f-l-lead-4 {
+  fill: #8c8c95;
+}
+
+.h\:f-l-lead-4:hover {
+  fill: #26262f;
+}
+
+.f-d-lead-4 {
+  fill: #26262f;
+}
+
+.h\:f-d-lead-4:hover {
+  fill: #26262f;
+}
+
+.f-l-lead-5 {
+  fill: #9f9fa7;
+}
+
+.h\:f-l-lead-5:hover {
+  fill: #202027;
+}
+
+.f-d-lead-5 {
+  fill: #202027;
+}
+
+.h\:f-d-lead-5:hover {
+  fill: #202027;
+}
+
+.f-l-lead-6 {
+  fill: #b2b2b8;
+}
+
+.h\:f-l-lead-6:hover {
+  fill: #19191f;
+}
+
+.f-d-lead-6 {
+  fill: #19191f;
+}
+
+.h\:f-d-lead-6:hover {
+  fill: #19191f;
+}
+
 .oc-l-lead-1 {
   outline-color: #525260;
 }
@@ -14972,6 +16324,14 @@
   color: black;
 }
 
+.f-black {
+  fill: black;
+}
+
+.h\:f-black:hover {
+  fill: black;
+}
+
 .oc-black {
   outline-color: black;
 }
@@ -15060,6 +16420,14 @@
   color: white;
 }
 
+.f-white {
+  fill: white;
+}
+
+.h\:f-white:hover {
+  fill: white;
+}
+
 .oc-white {
   outline-color: white;
 }
@@ -15146,6 +16514,14 @@
 
 .h\:t-transparent:hover {
   color: transparent;
+}
+
+.f-transparent {
+  fill: transparent;
+}
+
+.h\:f-transparent:hover {
+  fill: transparent;
 }
 
 .oc-transparent {
