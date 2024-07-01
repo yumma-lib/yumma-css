@@ -30928,19 +30928,19 @@
 }
 
 .tdt-1 {
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 1px;
 }
 
 .tdt-2 {
-  text-decoration-thickness: 8px;
+  text-decoration-thickness: 2px;
 }
 
 .tdt-3 {
-  text-decoration-thickness: 12px;
+  text-decoration-thickness: 3px;
 }
 
 .tdt-4 {
-  text-decoration-thickness: 16px;
+  text-decoration-thickness: 4px;
 }
 
 @media (min-width: 640px) {
@@ -30963,25 +30963,25 @@
 
 @media (min-width: 640px) {
   .sm\:tdt-1 {
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 1px;
   }
 }
 
 @media (min-width: 640px) {
   .sm\:tdt-2 {
-    text-decoration-thickness: 8px;
+    text-decoration-thickness: 2px;
   }
 }
 
 @media (min-width: 640px) {
   .sm\:tdt-3 {
-    text-decoration-thickness: 12px;
+    text-decoration-thickness: 3px;
   }
 }
 
 @media (min-width: 640px) {
   .sm\:tdt-4 {
-    text-decoration-thickness: 16px;
+    text-decoration-thickness: 4px;
   }
 }
 
@@ -31005,25 +31005,25 @@
 
 @media (min-width: 768px) {
   .md\:tdt-1 {
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 1px;
   }
 }
 
 @media (min-width: 768px) {
   .md\:tdt-2 {
-    text-decoration-thickness: 8px;
+    text-decoration-thickness: 2px;
   }
 }
 
 @media (min-width: 768px) {
   .md\:tdt-3 {
-    text-decoration-thickness: 12px;
+    text-decoration-thickness: 3px;
   }
 }
 
 @media (min-width: 768px) {
   .md\:tdt-4 {
-    text-decoration-thickness: 16px;
+    text-decoration-thickness: 4px;
   }
 }
 
@@ -31047,25 +31047,25 @@
 
 @media (min-width: 1024px) {
   .lg\:tdt-1 {
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 1px;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:tdt-2 {
-    text-decoration-thickness: 8px;
+    text-decoration-thickness: 2px;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:tdt-3 {
-    text-decoration-thickness: 12px;
+    text-decoration-thickness: 3px;
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:tdt-4 {
-    text-decoration-thickness: 16px;
+    text-decoration-thickness: 4px;
   }
 }
 
@@ -31089,25 +31089,25 @@
 
 @media (min-width: 1280px) {
   .xl\:tdt-1 {
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 1px;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:tdt-2 {
-    text-decoration-thickness: 8px;
+    text-decoration-thickness: 2px;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:tdt-3 {
-    text-decoration-thickness: 12px;
+    text-decoration-thickness: 3px;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:tdt-4 {
-    text-decoration-thickness: 16px;
+    text-decoration-thickness: 4px;
   }
 }
 
