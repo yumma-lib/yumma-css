@@ -51,8 +51,11 @@ All notable changes to the Yumma CSS will be documented in this file.
 - Remove **Offset Gap** utilities
 - Remove **Row** utility
 - Remove `_grid.scss` partial
+- Remove `badge-*` component
+- Remove `btn-*` component
 - Remove `btn-otl-*` component
 - Remove `card-*` component
 - Remove `ff-i` utility
-- Remove `nav-*` component
+- Remove `nav-*` comp*onent
+- Remove Components folder
 - Remove extra small value for breakpoint utilities
