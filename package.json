@@ -1,31 +1,12 @@
 {
-  "name": "yummacss",
-  "version": "2.0.0",
-  "description": "Quickly build applications with less code in your markup.",
-  "style": "dist/yumma.css",
   "author": "Renildo Pereira",
-  "keywords": [
-    "css",
-    "css-libraries",
-    "functional-css",
-    "gulp-sass",
-    "responsive",
-    "utility-classes",
-    "yummacss"
-  ],
-  "license": "MIT",
+  "description": "Quickly build applications with less code in your markup.",
   "homepage": "https://yummacss.com",
-  "bugs": {
-    "url": "https://github.com/yumma-lib/yumma-css/issues"
-  },
-  "scripts": {
-    "all": "npm-run-all --sequential std min core mincore",
-    "core": "gulp coreFile",
-    "min": "gulp minifiedFile",
-    "mincore": "gulp minifiedCoreFile",
-    "std": "gulp standardFile",
-    "watch": "gulp watchFiles"
-  },
+  "license": "MIT",
+  "name": "yumma-css",
+  "style": "dist/yumma.css",
+  "version": "2.0.0",
+
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
@@ -35,5 +16,22 @@
     "gulp-sass": "^5.1.0",
     "npm-run-all": "^4.1.5",
     "sass": "^1.62.1"
+  },
+  "keywords": [
+    "css",
+    "css-library",
+    "functional-css",
+    "gulp-sass",
+    "responsive",
+    "utility-classes",
+    "yummacss"
+  ],
+  "scripts": {
+    "all": "npm-run-all --sequential std min core mincore",
+    "core": "gulp coreFile",
+    "min": "gulp minifiedFile",
+    "mincore": "gulp minifiedCoreFile",
+    "std": "gulp standardFile",
+    "watch": "gulp watchFiles"
   }
 }
