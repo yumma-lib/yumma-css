@@ -1,0 +1,13 @@
+{
+    "packageManager": "github",
+    "name": "yumma-css",
+    "repo": "yumma-lib/yumma-css",
+    "files": {
+        "include": [
+            "yumma.css",
+            "yumma.min.js",
+            "yumma-core.css",
+            "yumma-core.min.js"
+        ]
+    }
+}
