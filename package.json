@@ -6,8 +6,12 @@
   "author": "Renildo Pereira",
   "keywords": [
     "css",
-    "css library",
-    "customization"
+    "css-library",
+    "functional-css",
+    "gulp-sass",
+    "responsive",
+    "utility-classes",
+    "yummacss"
   ],
   "license": "MIT",
   "homepage": "https://yummacss.com",
