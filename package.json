@@ -3,7 +3,7 @@
   "description": "Quickly build applications with less code in your markup.",
   "homepage": "https://yummacss.com",
   "license": "MIT",
-  "name": "yumma-css",
+  "name": "yummacss",
   "style": "dist/yumma.css",
   "version": "2.0.0",
 
