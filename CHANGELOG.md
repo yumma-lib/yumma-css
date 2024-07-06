@@ -32,12 +32,14 @@ All notable changes to the Yumma CSS will be documented in this file.
 ### Changed
 - **Border Color** utilities no longer have `border-style` and `border-width` properties by default
 - Base styles are now optional
-- Fix `transparent` color utility variants
+- Fix `transparent` having color variants
+- Fix conflict between `float: none;` (`f-none`) and `flex: none;` (`f-none`)
 - New `auto` property in **Margin** and **Padding** utilities
 - New `max-content` and `min-content` properties in **Grid Auto Columns**, **Grid Auto Rows**, **Height**, **Width**, **Dimension** and **Flex Basis**
 - New responsive utility variants
 - Simplify **Font Family** fallbacks
 - Update **Container** syntax from `cnn` to `cnt`
+- Update **Float** syntax from `f-*static*` to `flo-*`
 - Update **Font Family** utilitiy syntaxes from `ff-d` to `ff-s`
 - Update **Position** syntax from `pos-*` to `p-*`
 - Update **Position** syntax from `pos-static` to `p-s`

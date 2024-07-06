@@ -27644,142 +27644,142 @@ hr {
   }
 }
 
-.f-ie {
+.flo-ie {
   float: inline-end;
 }
 
-.f-is {
+.flo-is {
   float: inline-start;
 }
 
-.f-l {
+.flo-l {
   float: left;
 }
 
-.f-none {
+.flo-none {
   float: none;
 }
 
-.f-r {
+.flo-r {
   float: right;
 }
 
 @media (min-width: 640px) {
-  .sm\:f-ie {
+  .sm\:flo-ie {
     float: inline-end;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:f-is {
+  .sm\:flo-is {
     float: inline-start;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:f-l {
+  .sm\:flo-l {
     float: left;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:f-none {
+  .sm\:flo-none {
     float: none;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:f-r {
+  .sm\:flo-r {
     float: right;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:f-ie {
+  .md\:flo-ie {
     float: inline-end;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:f-is {
+  .md\:flo-is {
     float: inline-start;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:f-l {
+  .md\:flo-l {
     float: left;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:f-none {
+  .md\:flo-none {
     float: none;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:f-r {
+  .md\:flo-r {
     float: right;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:f-ie {
+  .lg\:flo-ie {
     float: inline-end;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:f-is {
+  .lg\:flo-is {
     float: inline-start;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:f-l {
+  .lg\:flo-l {
     float: left;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:f-none {
+  .lg\:flo-none {
     float: none;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:f-r {
+  .lg\:flo-r {
     float: right;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:f-ie {
+  .xl\:flo-ie {
     float: inline-end;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:f-is {
+  .xl\:flo-is {
     float: inline-start;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:f-l {
+  .xl\:flo-l {
     float: left;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:f-none {
+  .xl\:flo-none {
     float: none;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:f-r {
+  .xl\:flo-r {
     float: right;
   }
 }
