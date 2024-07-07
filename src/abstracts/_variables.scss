@@ -9,11 +9,12 @@ $yma-colors-blue: rgb(53, 117, 221);
 $yma-colors-indigo: rgb(89, 92, 217);
 $yma-colors-violet: rgb(125, 83, 221);
 $yma-colors-pink: rgb(212, 65, 138);
-$yma-colors-slate: rgb(123, 134, 151);
 $yma-colors-gray: rgb(96, 103, 115);
+$yma-colors-slate: rgb(123, 134, 151);
 $yma-colors-lead: rgb(63, 63, 78);
 $yma-colors-black: black;
 $yma-colors-white: white;
+$yma-colors-silver: rgb(191, 194, 199);
 $yma-colors-transparent: transparent;
 
 // borders & outlines
@@ -100,5 +101,6 @@ $yma-colors: (
   "lead": $yma-colors-lead,
   "black": $yma-colors-black,
   "white": $yma-colors-white,
+  "silver": $yma-colors-silver,
   "transparent": $yma-colors-transparent
 );
