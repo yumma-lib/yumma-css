@@ -26,14 +26,16 @@ All notable changes to the Yumma CSS will be documented in this file.
 - Add **Text Decoration Style** utilities
 - Add **Text Decoration Thickness** utilities
 - Add `_mixin.scss` partial
-- Add `functions.scss` partial
 - Add `core.scss` file
+- Add `functions.scss` partial
+- Add Silver color
 
 ### Changed
 - **Border Color** utilities no longer have `border-style` and `border-width` properties by default
 - Base styles are now optional
 - Fix `transparent` having color variants
 - Fix conflict between `float: none;` (`f-none`) and `flex: none;` (`f-none`)
+- New **Flex Basis** utilities - `fb-full`, `fb-half`
 - New `auto` property in **Margin** and **Padding** utilities
 - New `max-content` and `min-content` properties in **Grid Auto Columns**, **Grid Auto Rows**, **Height**, **Width**, **Dimension** and **Flex Basis**
 - New responsive utility variants
