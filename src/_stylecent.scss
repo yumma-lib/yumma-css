@@ -31,11 +31,13 @@ $stylecent: true !default;
         max-width: 100%;
     }
 
-    input,
     button,
-    textarea,
-    select {
+    input,
+    optgroup,
+    select,
+    textarea {
         font: inherit;
+        background-color: transparent;
     }
 
     p,

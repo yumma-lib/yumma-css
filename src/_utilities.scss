@@ -1050,6 +1050,19 @@ $yma-utilities: (
             }
         }
     }
+
+    // hover variants
+    @each $k, $v in $values {
+        @if ($k == "default") {
+            .h\:#{$prefix}:hover {
+                #{$property}: $v;
+            }
+        } @else {
+            .h\:#{$prefix}-#{$k}:hover {
+                #{$property}: $v;
+            }
+        }
+    }
 }
 
 // variants
