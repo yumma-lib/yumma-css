@@ -47,7 +47,7 @@ npm install yummacss
 
 If you have questions or want to stay updated on our projects, here are some ways to connect with us:
 
-- Subscribe to our [YouTube](https://www.youtube.com/@rrenildopereiraa/videos) channel.
+- Subscribe to our [YouTube](https://www.youtube.com/@yummacss) channel.
 - Join our [Discord](https://discord.gg/CGw5vyqmQ6) server.
 - Follow us on [Twitter](https://twitter.com/yummacss) for the latest updates.
 
