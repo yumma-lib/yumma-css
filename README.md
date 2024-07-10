@@ -5,16 +5,18 @@
 <h3 align="center">Yumma CSS</h3>
 
 <p align="center">
-  Quickly build applications with less code in your markup
+  Quickly build applications with less code in your markup.
   <br>
   <a href="https://yummacss.com"><strong>Explore Yumma CSS Docs ↝</strong></a>
   <br>
   <br>
-  <a href="https://yummacss.com/blog/installationducing-yummacss-intellisense">Yumma CSS IntelliSense</a>
-  •
   <a href="https://yummacss.com/blog">Blog</a>
   •
+  <a href="https://yummacss.com/blogintroducing-yummacss-intellisense">Intellisense</a>
+  •
   <a href="https://github.com/yumma-lib/yumma-css/issues">Issues</a>
+  •
+  <a href="https://play.yummacss.com">Playground</a>
 </p>
 
 <p align="center">
@@ -51,6 +53,6 @@ If you have questions or want to stay updated on our projects, here are some way
 - Join our [Discord](https://discord.gg/CGw5vyqmQ6) server.
 - Follow us on [Twitter](https://twitter.com/yummacss) for the latest updates.
 
-## Contributing
+## License
 
-If you'd like to show your support for our work, [you can buy me a coffee](https://www.buymeacoffee.com/rrenildoo).
+The code is the intellectual property of [Renildo Pereira](https://github.com/orgs/yumma-lib/people) and is released under the terms of the MIT license.
